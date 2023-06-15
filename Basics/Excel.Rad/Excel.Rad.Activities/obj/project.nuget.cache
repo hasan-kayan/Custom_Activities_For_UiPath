@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "6FowdTwUIJKVtbWq8YG0nRYvlGJDDue9ppVoMBniWBbGkhlgcqphFIaKtT391RVwapnqkGYG+LfSaeHZX0VnKA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\Basics\\Excel.Rad\\Excel.Rad.Activities\\Excel.Rad.Activities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\uipath.workflow.runtime\\6.0.0-alpha-20220106-04\\uipath.workflow.runtime.6.0.0-alpha-20220106-04.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Excel.Rad.Activities.Implementation depends on UiPath.Workflow.Runtime (>= 6.0.0-20220909-01) but UiPath.Workflow.Runtime 6.0.0-20220909-01 was not found. An approximate best match of UiPath.Workflow.Runtime 6.0.0-alpha-20220106-04 was resolved.",
+      "libraryId": "UiPath.Workflow.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Activities.Metadata. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "System.Activities.Metadata",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

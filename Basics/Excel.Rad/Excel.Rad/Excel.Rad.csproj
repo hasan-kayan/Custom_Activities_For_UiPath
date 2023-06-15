@@ -1,12 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
-		<RootNamespace>Linktera.Robotics.Excel.Basics</RootNamespace>
-		<AssemblyName>Linktera.Robotics.Excel.Basics</AssemblyName>
+		<RootNamespace>Excel.Rad</RootNamespace>
+		<AssemblyName>Excel.Rad</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\Linktera.Robotics.Excel.Basics.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\Excel.Rad.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
@@ -25,6 +25,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Contracts\" />
     <Folder Include="Enums\" />
     <Folder Include="Models\" />
   </ItemGroup>

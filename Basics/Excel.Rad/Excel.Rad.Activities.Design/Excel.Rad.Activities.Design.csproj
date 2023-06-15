@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
-		<RootNamespace>Linktera.Robotics.Excel.Basics.Activities.Design</RootNamespace>
-		<AssemblyName>Linktera.Robotics.Excel.Basics.Activities.Design</AssemblyName>
-    <PackageId>Linktera.Robotics.Excel.Basics.Activities</PackageId>
+		<RootNamespace>Excel.Rad.Activities.Design</RootNamespace>
+		<AssemblyName>Excel.Rad.Activities.Design</AssemblyName>
+    <PackageId>Excel.Rad.Activities</PackageId>
     <EnableDefaultPageItems>false</EnableDefaultPageItems>
   </PropertyGroup>
   <!-- Package Metadata -->
@@ -31,9 +31,6 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Designers\OpenExcelScopeDesigner.xaml" />
-  </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
     <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
@@ -54,7 +51,7 @@
   </Target>
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\Linktera.Robotics.Excel.Basics.Activities.Design.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\Excel.Rad.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="UiPath.Workflow" Version="6.0.0-20220909-01" PrivateAssets="All" />
@@ -67,9 +64,6 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Include="Designers\OpenExcelScopeDesigner.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </Page>
     <Page Include="Themes\Icons.xaml">
       <Generator>XamlIntelliSenseFileGenerator</Generator>
       <SubType>Designer</SubType>
@@ -77,7 +71,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Linktera.Robotics.Excel.Basics.Activities\Linktera.Robotics.Excel.Basics.Activities.csproj" PrivateAssets="All" />
+    <ProjectReference Include="..\Excel.Rad.Activities\Excel.Rad.Activities.csproj" PrivateAssets="All"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Designers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
