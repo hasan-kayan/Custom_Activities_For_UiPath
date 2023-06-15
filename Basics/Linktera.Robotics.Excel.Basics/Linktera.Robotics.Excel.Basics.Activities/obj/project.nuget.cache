@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "+mpkO/7eaOgo1VQyYjdEQMv+QtodhE5kTC6yQojNwf/mtdhGXVKlLMeuqJgUQ0mRJg/3u6Dz1Exk9//Lc9dAGA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\Basics\\Linktera.Robotics.Excel.Basics\\Linktera.Robotics.Excel.Basics.Activities\\Linktera.Robotics.Excel.Basics.Activities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\uipath.workflow.runtime\\6.0.0-alpha-20220106-04\\uipath.workflow.runtime.6.0.0-alpha-20220106-04.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Linktera.Robotics.Excel.Basics.Activities.Implementation depends on UiPath.Workflow.Runtime (>= 6.0.0-20220909-01) but UiPath.Workflow.Runtime 6.0.0-20220909-01 was not found. An approximate best match of UiPath.Workflow.Runtime 6.0.0-alpha-20220106-04 was resolved.",
+      "libraryId": "UiPath.Workflow.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Activities.Metadata. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "System.Activities.Metadata",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
