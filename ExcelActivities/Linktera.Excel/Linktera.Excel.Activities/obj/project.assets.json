@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
       "UiPath.Workflow.Runtime/6.0.0-alpha-20220106-04": {
         "type": "package",
         "compile": {
@@ -84,6 +93,9 @@
       "Linktera.Excel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
+        },
         "compile": {
           "bin/placeholder/Linktera.Excel.dll": {}
         },
@@ -94,6 +106,19 @@
     }
   },
   "libraries": {
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "sha512": "cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "type": "package",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll",
+        "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+        "microsoft.office.interop.excel.nuspec"
+      ]
+    },
     "UiPath.Workflow.Runtime/6.0.0-alpha-20220106-04": {
       "sha512": "ylNxqnaTreABGdSC+TFV/N5ko2+fucawKJid7zdXhigB4YvZsG2FL4bsmtme92DLK/B0kfPqGi9s+0vO0BYU8g==",
       "type": "package",

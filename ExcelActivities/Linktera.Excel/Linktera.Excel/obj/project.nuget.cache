@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3UaFvT6r6gYUBXeXhoSL0E5aG7de8QzeUBX28996+JwZyL6YO/eDyZxR2xGBC7+4+LnNyPvpH1RjFbNqKy74+Q==",
+  "dgSpecHash": "QnlGnl0+q8SgOeASJ99e5YxIPlrn/QEEU97WXeosWQ1Llnlzsd2O6AOOD6TQO3G/UA+pmzBgmqhPxy8XdkH8Qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelActivities\\Linktera.Excel\\Linktera.Excel\\Linktera.Excel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
   "logs": []
 }

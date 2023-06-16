@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Linktera.Excel.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel;
 
 namespace Linktera.Excel.Activities
 {
@@ -51,16 +53,41 @@ namespace Linktera.Excel.Activities
         protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
             // Inputs
-            var filepath = FilePath.Get(context);
-    
-            ///////////////////////////
-            // Add execution logic HERE
-            ///////////////////////////
+            var filePath = FilePath.Get(context);
+
+            Application excelApp = null;
+            try
+            {
+                excelApp = new Application();
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to create Excel application.");
+                return null;
+            }
+
+            // Open the workbook
+            Workbook workbook = null;
+            try
+            {
+                workbook = excelApp.Workbooks.Open(filePath);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to open the Excel file.");
+                excelApp.Quit();
+                Marshal.ReleaseComObject(excelApp);
+                return null;
+            }
+
+            Console.WriteLine("Excel file opened successfully.");
 
             // Outputs
-            return (ctx) => {
+            return (ctx) =>
+            {
             };
         }
+
 
         #endregion
     }
