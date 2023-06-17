@@ -127,6 +127,14 @@
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",
               "version": "[15.0.4795.1001, )"
+            },
+            "UiPath.Workflow": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "UiPath.Workflow.Runtime": {
+              "target": "Package",
+              "version": "[6.0.3, )"
             }
           },
           "imports": [
