@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "/mEnfCUxhP5bSnOlAly/ycn/UmpEns7EpFVgW7QbGXk54niKju2Ed8ZcsYK43tFqH1srVQgrESxHFOVXOLfViA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\First Try For Documantation\\Company.Product1\\Company.Product1.Activities.Design\\Company.Product1.Activities.Design.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.1\\microsoft.codeanalysis.common.4.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.1\\microsoft.codeanalysis.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\4.0.1\\microsoft.codeanalysis.csharp.scripting.4.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.0.1\\microsoft.codeanalysis.scripting.common.4.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.0.1\\microsoft.codeanalysis.visualbasic.4.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.core\\0.2.1-preview\\microsoft.powerfx.core.0.2.1-preview.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.interpreter\\0.2.1-preview\\microsoft.powerfx.interpreter.0.2.1-preview.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.transport.attributes\\0.2.1-preview\\microsoft.powerfx.transport.attributes.0.2.1-preview.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nito.asyncex.tasks\\5.1.2\\nito.asyncex.tasks.5.1.2.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nito.disposables\\2.2.1\\nito.disposables.2.2.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\reflectionmagic\\4.1.0\\reflectionmagic.4.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\uipath.workflow\\6.0.0-alpha-20220106-04\\uipath.workflow.6.0.0-alpha-20220106-04.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\uipath.workflow.runtime\\6.0.0-alpha-20220106-04\\uipath.workflow.runtime.6.0.0-alpha-20220106-04.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Company.Product1.Activities depends on UiPath.Workflow (>= 6.0.0-20220909-01) but UiPath.Workflow 6.0.0-20220909-01 was not found. An approximate best match of UiPath.Workflow 6.0.0-alpha-20220106-04 was resolved.",
+      "libraryId": "UiPath.Workflow",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.Activities.Core.Presentation. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "System.Activities.Core.Presentation",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
