@@ -54,8 +54,12 @@ namespace Linktera.Excel.Basics.Activities
         {
             // Inputs
             var filepath = FilePath.Get(context);
-    
-            
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR");
+
+            string filePath = filepath; // Assign filepath to a string variable
+            Console.WriteLine("File path: " + filePath); // Concatenate with other strings
+
 
             // Outputs
             return (ctx) => {
