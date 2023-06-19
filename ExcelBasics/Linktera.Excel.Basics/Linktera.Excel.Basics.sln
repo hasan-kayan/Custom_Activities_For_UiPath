@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linktera.Excel.Basics", "Linktera.Excel.Basics", "{FF405AC4-D153-4697-84B1-552AB73DECB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.Excel.Basics", "Linktera.Excel.Basics\Linktera.Excel.Basics.csproj", "{9C4F345E-636E-4E28-BBBF-E7997A940E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.Excel.Basics.Activities", "Linktera.Excel.Basics.Activities\Linktera.Excel.Basics.Activities.csproj", "{98CE6BB0-B17C-4723-844E-4C5BE1727E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.Excel.Basics.Activities.Design", "Linktera.Excel.Basics.Activities.Design\Linktera.Excel.Basics.Activities.Design.csproj", "{E80B2967-F27E-4D44-8239-67E08F0E7322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2BFED6FA-2C96-430E-921E-B98419663E88}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C4F345E-636E-4E28-BBBF-E7997A940E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4F345E-636E-4E28-BBBF-E7997A940E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4F345E-636E-4E28-BBBF-E7997A940E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4F345E-636E-4E28-BBBF-E7997A940E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CE6BB0-B17C-4723-844E-4C5BE1727E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CE6BB0-B17C-4723-844E-4C5BE1727E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CE6BB0-B17C-4723-844E-4C5BE1727E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CE6BB0-B17C-4723-844E-4C5BE1727E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80B2967-F27E-4D44-8239-67E08F0E7322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80B2967-F27E-4D44-8239-67E08F0E7322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80B2967-F27E-4D44-8239-67E08F0E7322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80B2967-F27E-4D44-8239-67E08F0E7322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C4F345E-636E-4E28-BBBF-E7997A940E1B} = {FF405AC4-D153-4697-84B1-552AB73DECB2}
+		{98CE6BB0-B17C-4723-844E-4C5BE1727E72} = {FF405AC4-D153-4697-84B1-552AB73DECB2}
+		{E80B2967-F27E-4D44-8239-67E08F0E7322} = {FF405AC4-D153-4697-84B1-552AB73DECB2}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {2BFED6FA-2C96-430E-921E-B98419663E88}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {2BFED6FA-2C96-430E-921E-B98419663E88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF9836A-A97C-437F-A74F-44B3400925C9}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{98ce6bb0-b17c-4723-844e-4c5be1727e72}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{e80b2967-f27e-4d44-8239-67e08f0e7322}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
