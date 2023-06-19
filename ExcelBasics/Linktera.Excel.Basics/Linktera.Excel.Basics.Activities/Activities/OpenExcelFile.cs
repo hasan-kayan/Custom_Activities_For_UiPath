@@ -60,6 +60,23 @@ namespace Linktera.Excel.Basics.Activities
             string filePath = filepath; // Assign filepath to a string variable
             Console.WriteLine("File path: " + filePath); // Concatenate with other strings
 
+            // Create an Excel application object
+            Application excelApp = null;
+
+            excelApp = new Application();
+
+            // Open the workbook
+            Workbook workbook = null;
+
+            workbook = excelApp.Workbooks.Open(filePath);
+
+            Console.WriteLine("Excel file opened successfully.");
+
+            // Clean up Excel objects
+            excelApp.Visible = true;
+            Marshal.ReleaseComObject(workbook);
+            Marshal.ReleaseComObject(excelApp);
+
 
             // Outputs
             return (ctx) => {
