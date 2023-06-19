@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Linktera.Excel.Basics.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel;
 
 namespace Linktera.Excel.Basics.Activities
 {
@@ -53,9 +55,7 @@ namespace Linktera.Excel.Basics.Activities
             // Inputs
             var filepath = FilePath.Get(context);
     
-            ///////////////////////////
-            // Add execution logic HERE
-            ///////////////////////////
+            
 
             // Outputs
             return (ctx) => {
