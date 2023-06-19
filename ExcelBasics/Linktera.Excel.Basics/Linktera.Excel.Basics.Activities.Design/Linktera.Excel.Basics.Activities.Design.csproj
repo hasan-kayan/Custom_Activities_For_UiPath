@@ -31,6 +31,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Designers\OpenExcelFileDesigner.xaml" />
+  </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
     <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
@@ -54,6 +57,8 @@
     <DocumentationFile>bin\$(Configuration)\Linktera.Excel.Basics.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
     <PackageReference Include="UiPath.Workflow" Version="6.0.0-20220909-01" PrivateAssets="All" />
     <PackageReference Include="System.Activities.Core.Presentation" Version="6.0.0-*" PrivateAssets="All" />
   </ItemGroup>
@@ -64,6 +69,9 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
+    <Page Include="Designers\OpenExcelFileDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
     <Page Include="Themes\Icons.xaml">
       <Generator>XamlIntelliSenseFileGenerator</Generator>
       <SubType>Designer</SubType>
@@ -71,10 +79,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Linktera.Excel.Basics.Activities\Linktera.Excel.Basics.Activities.csproj" PrivateAssets="All"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Designers\" />
+    <ProjectReference Include="..\Linktera.Excel.Basics.Activities\Linktera.Excel.Basics.Activities.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

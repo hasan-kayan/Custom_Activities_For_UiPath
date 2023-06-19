@@ -62,13 +62,29 @@ namespace Linktera.Excel.Basics.Activities
 
             // Create an Excel application object
             Application excelApp = null;
-
-            excelApp = new Application();
+            try
+            {
+                excelApp = new Application();
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to create Excel application.");
+                throw;
+            }
 
             // Open the workbook
             Workbook workbook = null;
-
-            workbook = excelApp.Workbooks.Open(filePath);
+            try
+            {
+                workbook = excelApp.Workbooks.Open(filePath);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to open the Excel file.");
+                excelApp.Quit();
+                Marshal.ReleaseComObject(excelApp);
+                throw;
+            }
 
             Console.WriteLine("Excel file opened successfully.");
 
@@ -76,6 +92,7 @@ namespace Linktera.Excel.Basics.Activities
             excelApp.Visible = true;
             Marshal.ReleaseComObject(workbook);
             Marshal.ReleaseComObject(excelApp);
+
 
 
             // Outputs
