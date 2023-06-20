@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Company")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Linktera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© 2022 Company")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("This package was generated using the UiPath VS Extension.")]
