@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pAUDDpjwn1QI0+MNHaX+nDJBT4Y5U/EMVeNPnjMY5itikGAldBf/Bu/gNm8xXkWHAQTplwKvkuxocTevfSKdsg==",
+  "dgSpecHash": "99+mSCu+02aufCg9yNwVyV9ALMqPUsTzN2WXtQ78P+x92Et6xzof+6fpkXWjmwpUhnZY/gQWiP3X3zE2KVMSBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.Activities.Design\\Linktera.Excel.Basics.Activities.Design.csproj",
   "expectedPackageFiles": [
@@ -56,8 +56,7 @@
     "C:\\Users\\hasan\\.nuget\\packages\\uipath.workflow.runtime\\6.0.0-20220909-01\\uipath.workflow.runtime.6.0.0-20220909-01.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.18\\microsoft.netcore.app.runtime.win-x86.6.0.18.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.18\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.18.nupkg.sha512",
-    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.18\\microsoft.aspnetcore.app.runtime.win-x86.6.0.18.nupkg.sha512",
-    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.18\\microsoft.netcore.app.crossgen2.win-x64.6.0.18.nupkg.sha512"
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.18\\microsoft.aspnetcore.app.runtime.win-x86.6.0.18.nupkg.sha512"
   ],
   "logs": []
 }
