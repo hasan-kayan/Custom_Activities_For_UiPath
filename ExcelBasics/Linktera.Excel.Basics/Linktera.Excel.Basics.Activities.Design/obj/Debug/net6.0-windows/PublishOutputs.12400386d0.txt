@@ -1,0 +1,8 @@
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.Design.dll
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.Design.pdb
+C:\ProgramData\UiPath\Packages\Microsoft.Office.Interop.Excel.dll
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.dll
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.pdb
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.xml
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.Design.xml
+C:\ProgramData\UiPath\Packages\Linktera.Excel.Basics.Activities.Design.deps.json

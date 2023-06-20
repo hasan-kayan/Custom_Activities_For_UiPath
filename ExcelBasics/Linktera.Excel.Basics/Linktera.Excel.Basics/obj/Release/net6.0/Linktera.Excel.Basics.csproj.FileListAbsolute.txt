@@ -1,0 +1,15 @@
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\bin\Release\net6.0\Linktera.Excel.Basics.deps.json
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\bin\Release\net6.0\Linktera.Excel.Basics.dll
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\bin\Release\net6.0\Linktera.Excel.Basics.pdb
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\bin\Release\net6.0\Linktera.Excel.Basics.xml
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.Properties.Resources.resources
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.csproj.GenerateResource.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.AssemblyInfo.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.dll
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\refint\Linktera.Excel.Basics.dll
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\Linktera.Excel.Basics.pdb
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics\obj\Release\net6.0\ref\Linktera.Excel.Basics.dll

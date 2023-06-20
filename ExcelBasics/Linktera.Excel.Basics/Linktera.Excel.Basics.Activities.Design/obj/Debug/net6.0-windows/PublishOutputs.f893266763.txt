@@ -1,0 +1,8 @@
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.Design.dll
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.Design.pdb
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Microsoft.Office.Interop.Excel.dll
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.dll
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.pdb
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.xml
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.Design.xml
+C:\Users\hasan\AppData\Local\Programs\UiPath\Studio\Packages\Linktera.Excel.Basics.Activities.Design.deps.json
