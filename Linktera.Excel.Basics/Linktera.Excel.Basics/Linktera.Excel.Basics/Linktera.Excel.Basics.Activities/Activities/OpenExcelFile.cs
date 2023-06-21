@@ -1,10 +1,14 @@
 using System;
 using System.Activities;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using Linktera.Excel.Basics.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel; 
 
 namespace Linktera.Excel.Basics.Activities
 {
@@ -52,10 +56,47 @@ namespace Linktera.Excel.Basics.Activities
         {
             // Inputs
             var filepath = FilePath.Get(context);
-    
-            ///////////////////////////
-            // Add execution logic HERE
-            ///////////////////////////
+
+         
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR");
+
+            string filePath = filepath; // Assign filepath to a string variable
+            Console.WriteLine("File path: " + filePath); // Concatenate with other strings
+
+            // Create an Excel application object
+            Microsoft.Office.Interop.Excel.Application excelApp = null;
+            try
+            {
+                excelApp = new Microsoft.Office.Interop.Excel.Application();
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to create Excel application.");
+                throw;
+            }
+
+            // Open the workbook
+            Workbook workbook = null;
+            try
+            {
+                workbook = excelApp.Workbooks.Open(filePath);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Failed to open the Excel file.");
+                excelApp.Quit();
+                Marshal.ReleaseComObject(excelApp);
+                throw;
+            }
+
+            Console.WriteLine("Excel file opened successfully.");
+
+            // Clean up Excel objects
+            excelApp.Visible = true;
+            Marshal.ReleaseComObject(workbook);
+            Marshal.ReleaseComObject(excelApp);
+
 
             // Outputs
             return (ctx) => {
