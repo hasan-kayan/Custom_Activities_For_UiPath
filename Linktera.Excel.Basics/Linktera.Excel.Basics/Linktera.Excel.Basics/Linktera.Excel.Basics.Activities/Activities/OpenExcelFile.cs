@@ -58,13 +58,13 @@ namespace Linktera.Excel.Basics.Activities
             var filepath = FilePath.Get(context);
 
          
-
+            // Determine Turkish Character Set 
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR");
 
             string filePath = filepath; // Assign filepath to a string variable
             Console.WriteLine("File path: " + filePath); // Concatenate with other strings
 
-            // Create an Excel application object
+            // Create an Excel application object with error expectations
             Microsoft.Office.Interop.Excel.Application excelApp = null;
             try
             {
@@ -98,7 +98,7 @@ namespace Linktera.Excel.Basics.Activities
             Marshal.ReleaseComObject(excelApp);
 
 
-            // Outputs
+            // Outputs / Code does not have output service
             return (ctx) => {
             };
         }
