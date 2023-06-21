@@ -2735,7 +2735,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\ProgramData\\UiPath\\Packages": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://gallery.uipath.com/api/v3/index.json": {}
       },
