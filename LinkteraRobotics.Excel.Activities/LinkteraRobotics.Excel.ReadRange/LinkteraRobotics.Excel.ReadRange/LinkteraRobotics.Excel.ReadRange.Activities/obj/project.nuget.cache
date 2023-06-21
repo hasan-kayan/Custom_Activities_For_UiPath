@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LtnmBgys9RxCy+KDSsj6HGSDHPI4fNvhBFrYwbja56p1IOXFJM2Lby1W2jApgO0+f2K7gScldGXQ5OJwAFjkBg==",
+  "dgSpecHash": "i38oLv0qjut7s6KmCxMuwRAbdfGw4Xxy+B9HeDPKrPpleChI9JY3p2tucqD8XB94cQN37WqpLeBLb/BCf/UTxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\LinkteraRobotics.Excel.Activities\\LinkteraRobotics.Excel.ReadRange\\LinkteraRobotics.Excel.ReadRange\\LinkteraRobotics.Excel.ReadRange.Activities\\LinkteraRobotics.Excel.ReadRange.Activities.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.0.1\\microsoft.codeanalysis.visualbasic.4.0.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.core\\0.2.1-preview\\microsoft.powerfx.core.0.2.1-preview.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.interpreter\\0.2.1-preview\\microsoft.powerfx.interpreter.0.2.1-preview.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.transport.attributes\\0.2.1-preview\\microsoft.powerfx.transport.attributes.0.2.1-preview.nupkg.sha512",

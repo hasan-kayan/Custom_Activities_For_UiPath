@@ -6,6 +6,9 @@ using System.Data;
 using LinkteraRobotics.Excel.ReadRange.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel; 
 
 namespace LinkteraRobotics.Excel.ReadRange.Activities
 {
@@ -62,13 +65,17 @@ namespace LinkteraRobotics.Excel.ReadRange.Activities
 
         protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
-            // Inputs
-            var range = Range.Get(context);
-            var worksheetname = WorksheetName.Get(context);
-    
-            ///////////////////////////
-            // Add execution logic HERE
-            ///////////////////////////
+            Microsoft.Office.Interop.Excel.Application excelApp = null;
+            try
+            {
+                excelApp = (Microsoft.Office.Interop.Excel.Application)Marshal.GetActiveObject("Excel.Application");
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("No active Excel instance found.");
+                throw;
+            }
+
 
             // Outputs
             return (ctx) => {
