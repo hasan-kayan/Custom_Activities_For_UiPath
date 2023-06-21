@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Linktera.Excel.Basics\Linktera.Excel.Basics.Activities.Design\obj\Debug\net6.0-windows\
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Linktera.Excel.Basics\Linktera.Excel.Basics.Activities.Design\obj\Debug\net6.0-windows\
 Linktera.Excel.Basics.Activities.Design
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-7-1279860741
+7-1552751644
 
-20-1357994483
-216-331731387
-..\..\Shared\Themes\Generic.xaml;Designers\OpenExcelFileDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+201345083516
+2162014414533
+..\..\Shared\Themes\Generic.xaml;Designers\OpenExcelFileDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
-True
+False
 

@@ -775,11 +775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
+      "projectUniqueName": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
       "projectName": "Linktera.Excel.Basics",
-      "projectPath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
+      "projectPath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
       "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\obj\\",
+      "outputPath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

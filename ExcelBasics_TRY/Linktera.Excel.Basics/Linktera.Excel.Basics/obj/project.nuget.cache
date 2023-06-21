@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TTZy0rdtzrkYWKNlV0VO+pCZAaOFnRXrGx0GzTnNvPh5riSacu7UZ9vGjAg0sjxsFZc+Ih37aJQHwpqivERw/A==",
+  "dgSpecHash": "oaTNNufvLyjS3qpHEHip47WGYfaYheEHXpONimvh7zQaNmuoHxMj77+HuNS3DrWHqKM21sMmNexcKHsyyxyyOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Linktera.Excel.Basics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

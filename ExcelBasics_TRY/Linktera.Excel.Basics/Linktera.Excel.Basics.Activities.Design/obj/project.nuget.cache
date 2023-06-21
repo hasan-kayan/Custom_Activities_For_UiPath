@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LdJ09gVanYxm0n0atnKAenfQ06/YG97dGGA3C+tJ1C7j34KNr5WJzQGJF3uwNcLq+zTCgeyu6Ynqw21eKK8y5Q==",
+  "dgSpecHash": "8jG4LuQuLF39fuaHLW1CXxhzEabffSe4w0A1aY+2w+Kn2GEddE2SUcmwF4SA14CuyQleTQ9moMoSfN4K1mhoVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics\\Linktera.Excel.Basics\\Linktera.Excel.Basics.Activities.Design\\Linktera.Excel.Basics.Activities.Design.csproj",
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Linktera.Excel.Basics\\Linktera.Excel.Basics.Activities.Design\\Linktera.Excel.Basics.Activities.Design.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.1\\microsoft.codeanalysis.common.4.0.1.nupkg.sha512",
