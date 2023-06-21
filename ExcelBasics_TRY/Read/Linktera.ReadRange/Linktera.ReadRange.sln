@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linktera.ReadRange", "Linktera.ReadRange", "{87E38D52-C077-4B3C-95C4-7B5ADDAD377C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.ReadRange", "Linktera.ReadRange\Linktera.ReadRange\Linktera.ReadRange.csproj", "{AA601E2E-97BB-4052-B058-86C757B7FE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.ReadRange.Activities", "Linktera.ReadRange\Linktera.ReadRange.Activities\Linktera.ReadRange.Activities.csproj", "{9608338F-3BC4-402E-B475-632BF16AC1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linktera.ReadRange.Activities.Design", "Linktera.ReadRange\Linktera.ReadRange.Activities.Design\Linktera.ReadRange.Activities.Design.csproj", "{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{00E11081-E4FF-486E-86CD-8605A6FA09C2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA601E2E-97BB-4052-B058-86C757B7FE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA601E2E-97BB-4052-B058-86C757B7FE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA601E2E-97BB-4052-B058-86C757B7FE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA601E2E-97BB-4052-B058-86C757B7FE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9608338F-3BC4-402E-B475-632BF16AC1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9608338F-3BC4-402E-B475-632BF16AC1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9608338F-3BC4-402E-B475-632BF16AC1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9608338F-3BC4-402E-B475-632BF16AC1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA601E2E-97BB-4052-B058-86C757B7FE6F} = {87E38D52-C077-4B3C-95C4-7B5ADDAD377C}
+		{9608338F-3BC4-402E-B475-632BF16AC1B0} = {87E38D52-C077-4B3C-95C4-7B5ADDAD377C}
+		{1EC538BE-9BCD-4E13-91D4-867D79C7A9EF} = {87E38D52-C077-4B3C-95C4-7B5ADDAD377C}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {00E11081-E4FF-486E-86CD-8605A6FA09C2}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {00E11081-E4FF-486E-86CD-8605A6FA09C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {836DAEBC-2F1D-4849-995D-5B31E9183360}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{1ec538be-9bcd-4e13-91d4-867d79c7a9ef}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{9608338f-3bc4-402e-b475-632bf16ac1b0}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

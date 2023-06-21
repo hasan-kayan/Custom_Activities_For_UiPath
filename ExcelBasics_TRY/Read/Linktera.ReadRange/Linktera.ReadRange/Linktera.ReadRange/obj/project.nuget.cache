@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SoGjKtjZbrgWYGmHV4Qjy2i+NfNoPiDszqJV4NVTlXXb3FYEjX5D5WbBorkvC9DDq8Zg79gU3olOOo2a+x6bZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\ExcelBasics_TRY\\Read\\Linktera.ReadRange\\Linktera.ReadRange\\Linktera.ReadRange\\Linktera.ReadRange.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
