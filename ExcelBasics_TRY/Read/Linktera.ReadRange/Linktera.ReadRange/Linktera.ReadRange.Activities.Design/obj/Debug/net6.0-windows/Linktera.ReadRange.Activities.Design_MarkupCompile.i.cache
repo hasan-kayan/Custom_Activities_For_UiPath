@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 216-2112089950
 ..\..\Shared\Themes\Generic.xaml;Designers\ReadExcelRangeDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Read\Linktera.ReadRange\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Read\Linktera.ReadRange\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Read\Linktera.ReadRange\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\ExcelBasics_TRY\Read\Linktera.ReadRange\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
-True
+False
 

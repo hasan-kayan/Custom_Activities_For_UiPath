@@ -93,7 +93,7 @@ namespace Linktera.ReadRange.Activities
             }
 
             // Get the active worksheet from the Excel instance
-            Excel.Worksheet activeSheet = excelApp.ActiveSheet;
+            Microsoft.Office.Interop.Excel.Worksheet activeSheet = excelApp.ActiveSheet;
 
             // Read the range of data and add it to a DataTable
             DataTable dataTable = new DataTable();
