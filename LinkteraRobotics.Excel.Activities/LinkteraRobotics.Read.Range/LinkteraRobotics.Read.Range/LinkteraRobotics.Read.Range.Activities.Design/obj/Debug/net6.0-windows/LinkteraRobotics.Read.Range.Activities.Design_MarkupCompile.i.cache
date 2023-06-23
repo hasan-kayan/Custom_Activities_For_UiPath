@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-61225546054
+7-1512574944
 
-18668654918
-2151312994665
-..\..\Shared\Themes\Generic.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+20-1854319064
+216-903495598
+..\..\Shared\Themes\Generic.xaml;Designers\ReadRangeDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\LinkteraRobotics.Excel.Activities\LinkteraRobotics.Read.Range\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
 True
 
