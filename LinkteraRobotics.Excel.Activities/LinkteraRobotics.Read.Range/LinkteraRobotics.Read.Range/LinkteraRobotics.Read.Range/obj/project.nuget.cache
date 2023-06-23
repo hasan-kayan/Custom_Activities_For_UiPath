@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0K7wZvidwo1PUrJZeneLNuZ5wmxJZBlS7cmCEW0DuHZzcb56Morqw6DJV8wZDxPhIUJNZim1DAcKHM8ku+NsQQ==",
+  "dgSpecHash": "oq7xankXOa/Lr3JwovXXAQ6ygETmIVA14jr1oyfhPyqSWa4FDV4Q86wDXNt6AF3Wym19HJP8v+OSLuP4NDli2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\LinkteraRobotics.Excel.Activities\\LinkteraRobotics.Read.Range\\LinkteraRobotics.Read.Range\\LinkteraRobotics.Read.Range\\LinkteraRobotics.Read.Range.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
   "logs": []
 }
