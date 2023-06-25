@@ -1,1 +1,5 @@
 Buildin
+
+Build alırken Debug modda olduğundan emin ol 
+Seçilen klasör dışına .nupkg atıyor, loglardan oku ve paketi bul
+Design üzerinde sağ tıkla properties kısmından nupkg export ekle
