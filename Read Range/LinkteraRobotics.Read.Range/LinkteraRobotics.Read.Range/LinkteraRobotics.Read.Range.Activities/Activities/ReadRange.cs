@@ -6,6 +6,9 @@ using System.Data;
 using LinkteraRobotics.Read.Range.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LinkteraRobotics.Read.Range.Activities
 {
