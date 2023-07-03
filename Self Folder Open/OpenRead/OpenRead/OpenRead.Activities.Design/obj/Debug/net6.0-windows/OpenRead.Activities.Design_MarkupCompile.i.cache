@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-6696946717
+7-1461594944
 
-18-1749956106
-215860847583
-..\..\Shared\Themes\Generic.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+20-580401417
+216-309395201
+..\..\Shared\Themes\Generic.xaml;Designers\ReadDataDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Self Folder Open\OpenRead\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
-True
+False
 

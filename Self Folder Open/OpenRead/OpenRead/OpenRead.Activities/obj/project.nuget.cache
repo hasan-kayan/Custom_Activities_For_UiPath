@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D4uifAYsQ3a8f+M7nKNBTvOOR//1tjIaYhmw2ObSRM8jD3x0qypltnRv4Pq+3SdVw0VLto1UrW5xxOpFss5xQA==",
+  "dgSpecHash": "TzZcIjjVvD8BOhbgfpbspeDnckzPgsG65bAlkQirSeZzaDl6FQ6RqVIfKiyivpbqAEvr852rOgL8QtczOJIh7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\Self Folder Open\\OpenRead\\OpenRead\\OpenRead.Activities\\OpenRead.Activities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.1\\microsoft.codeanalysis.common.4.0.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.1\\microsoft.codeanalysis.csharp.4.0.1.nupkg.sha512",
