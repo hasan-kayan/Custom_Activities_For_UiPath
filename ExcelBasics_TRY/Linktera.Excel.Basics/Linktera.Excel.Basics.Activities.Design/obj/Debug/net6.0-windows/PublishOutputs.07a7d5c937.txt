@@ -1,8 +1,0 @@
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.Design.dll
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.Design.pdb
-C:\Users\hasan\Desktop\Published\Microsoft.Office.Interop.Excel.dll
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.dll
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.pdb
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.xml
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.Design.xml
-C:\Users\hasan\Desktop\Published\Linktera.Excel.Basics.Activities.Design.deps.json
