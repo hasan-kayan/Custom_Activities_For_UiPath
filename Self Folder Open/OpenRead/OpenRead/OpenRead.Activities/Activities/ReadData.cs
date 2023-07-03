@@ -92,6 +92,8 @@ namespace OpenRead.Activities
                     var dataView = new DataView(dataTable);
                     dataView.RowFilter = rangedata;
 
+
+                    dataTable = OutputData;
                     // Outputs
                     return (ctx) =>
                     {
