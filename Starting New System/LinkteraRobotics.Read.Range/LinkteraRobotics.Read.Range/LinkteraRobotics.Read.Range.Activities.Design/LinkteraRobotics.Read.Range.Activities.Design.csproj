@@ -31,6 +31,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Designers\ReadExcelRangeDesigner.xaml" />
+  </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
     <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
@@ -64,6 +67,9 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
+    <Page Include="Designers\ReadExcelRangeDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
     <Page Include="Themes\Icons.xaml">
       <Generator>XamlIntelliSenseFileGenerator</Generator>
       <SubType>Designer</SubType>
@@ -71,10 +77,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LinkteraRobotics.Read.Range.Activities\LinkteraRobotics.Read.Range.Activities.csproj" PrivateAssets="All"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Designers\" />
+    <ProjectReference Include="..\LinkteraRobotics.Read.Range.Activities\LinkteraRobotics.Read.Range.Activities.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
