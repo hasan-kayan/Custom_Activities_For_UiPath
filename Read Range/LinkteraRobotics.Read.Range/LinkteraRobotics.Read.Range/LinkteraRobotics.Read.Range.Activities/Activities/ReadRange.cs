@@ -9,6 +9,11 @@ using UiPath.Shared.Activities.Localization;
 using System.Runtime.InteropServices;
 using Microsoft.Office.Interop.Excel;
 using static System.Net.Mime.MediaTypeNames;
+using System.ComponentModel;
+
+using DataTable = System.Data.DataTable;
+
+// Your code here
 
 namespace LinkteraRobotics.Read.Range.Activities
 {
@@ -75,10 +80,26 @@ namespace LinkteraRobotics.Read.Range.Activities
             var filepath = Filepath.Get(context);
             var sheetname = Sheetname.Get(context);
             var datarange = Datarange.Get(context);
-    
+
+
+
+      
+
+
+
+
+
             ///////////////////////////
             // Add execution logic HERE
             ///////////////////////////
+
+
+
+
+
+
+
+        
 
             // Outputs
             return (ctx) => {
