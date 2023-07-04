@@ -10,11 +10,12 @@
     <DocumentationFile>bin\$(Configuration)\LinkteraRobotics.Read.Excel.Range.Activities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
     <PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
-    <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All"/>
+    <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LinkteraRobotics.Read.Excel.Range\LinkteraRobotics.Read.Excel.Range.csproj" PrivateAssets="All"/>
+    <ProjectReference Include="..\LinkteraRobotics.Read.Excel.Range\LinkteraRobotics.Read.Excel.Range.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

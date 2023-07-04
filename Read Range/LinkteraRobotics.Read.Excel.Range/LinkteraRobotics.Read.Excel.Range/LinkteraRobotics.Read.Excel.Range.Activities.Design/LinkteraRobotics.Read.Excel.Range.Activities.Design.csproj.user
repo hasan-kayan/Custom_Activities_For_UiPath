@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\hasan\Desktop\Linktera.Robotics.RPA\Read Range\LinkteraRobotics.Read.Excel.Range\LinkteraRobotics.Read.Excel.Range\LinkteraRobotics.Read.Excel.Range.Activities.Design\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <Page Update="Designers\ReadRangeDesigner.xaml">
       <SubType>Designer</SubType>
