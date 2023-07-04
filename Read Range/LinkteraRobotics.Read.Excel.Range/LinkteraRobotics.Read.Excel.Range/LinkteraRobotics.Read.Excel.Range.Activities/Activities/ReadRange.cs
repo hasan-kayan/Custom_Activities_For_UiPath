@@ -9,8 +9,7 @@ using UiPath.Shared.Activities.Localization;
 using Microsoft.Office.Interop.Excel;
 
 using DataTable = System.Data.DataTable;
-
-
+using System.Runtime.InteropServices;
 
 namespace LinkteraRobotics.Read.Excel.Range.Activities
 {
@@ -82,74 +81,85 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             // Add execution logic HERE
 
 
-            // Excel uygulamasýný baþlat
-            Application excelApp = new Application();
-
-            // Excel dosyasýný aç
-            Workbook workbook = excelApp.Workbooks.Open(filepath);
-
-            // Ýlgili sayfayý seç
-            Worksheet worksheet = (Worksheet)workbook.Sheets[sheetname];
-
-            // Belirtilen aralýðý al
-            Microsoft.Office.Interop.Excel.Range excelRange = worksheet.Range[range];
-
-
-
-            // Verileri bir object dizisine aktar
-            object[,] valueArray = (object[,])excelRange.Value;
-
-            // DataTable oluþtur
-            DataTable dataTable = new DataTable();
-
-
-
-            // Sütun baþlýklarýný ekle
-            for (int col = 1; col <= excelRange.Columns.Count; col++)
+            // Create an Excel application object
+            Application excelApp = null;
+            try
             {
-                dataTable.Columns.Add(valueArray[1, col].ToString());
+                excelApp = (Microsoft.Office.Interop.Excel.Application)Marshal.GetActiveObject("Excel.Application");
+            }
+            catch (COMException)
+            {
+                throw new Exception("No active Excel instance found.");
             }
 
-            // Verileri DataTable'e aktar
-            for (int row = 2; row <= excelRange.Rows.Count; row++)
+            // Check if the workbook is already open
+            Workbook workbook = null;
+            foreach (Workbook wb in excelApp.Workbooks)
+            {
+                if (wb.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
+                {
+                    workbook = wb;
+                    break;
+                }
+            }
+
+            // If the workbook is not open, open it
+            if (workbook == null)
+            {
+                workbook = excelApp.Workbooks.Open(filepath);
+            }
+
+            // Get the worksheet
+            Worksheet worksheet = workbook.Sheets[sheetname] as Worksheet;
+            if (worksheet == null)
+            {
+                workbook.Close();
+                Marshal.ReleaseComObject(workbook);
+                Marshal.ReleaseComObject(excelApp);
+                throw new Exception($"Worksheet '{sheetname}' not found.");
+            }
+
+            // Read the range from Excel
+            Microsoft.Office.Interop.Excel.Range excelRange = worksheet.Range[range];
+
+            // Get the data from the range
+            object[,] excelData = (object[,])excelRange.Value;
+
+            // Convert the data to a DataTable
+            DataTable dataTable = new DataTable();
+            int rowCount = excelData.GetLength(0);
+            int columnCount = excelData.GetLength(1);
+
+            // Create columns in the DataTable
+            for (int col = 1; col <= columnCount; col++)
+            {
+                string columnName = excelData[1, col]?.ToString() ?? $"Column{col}";
+                dataTable.Columns.Add(columnName);
+            }
+
+            // Add rows to the DataTable
+            for (int row = 2; row <= rowCount; row++)
             {
                 DataRow dataRow = dataTable.NewRow();
-                for (int col = 1; col <= excelRange.Columns.Count; col++)
+                for (int col = 1; col <= columnCount; col++)
                 {
-                    dataRow[col - 1] = valueArray[row, col];
+                    dataRow[col - 1] = excelData[row, col];
                 }
                 dataTable.Rows.Add(dataRow);
             }
 
-            // Excel uygulamasýný kapat
-            excelApp.Quit();
 
-            // DataTable'i kullanabilirsiniz
-            // Örneðin, verileri yazdýrabilirsiniz
-            foreach (DataRow row in dataTable.Rows)
+            // Clean up Excel objects
+            Marshal.ReleaseComObject(excelRange);
+            Marshal.ReleaseComObject(worksheet);
+
+            // If the workbook was opened in this execution, close it
+            if (workbook != null && !workbook.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
             {
-                foreach (DataColumn col in dataTable.Columns)
-                {
-                    Console.Write(row[col] + "\t");
-                }
-                Console.WriteLine();
+                workbook.Close();
             }
-            // Kaynaklarý serbest býrak
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-
-            // Bellekteki nesneleri temizle
-            worksheet = null;
-            workbook = null;
-            excelApp = null;
-
-            GC.Collect();
-            GC.WaitForPendingFinalizers();
-
-            // Output ile ara datatable ý eþitle
-            Output.Set(context, dataTable);
-
+            Marshal.ReleaseComObject(workbook);
+            Marshal.ReleaseComObject(excelApp);
 
 
 
