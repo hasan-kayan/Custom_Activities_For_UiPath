@@ -78,13 +78,11 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             var sheetname = Sheetname.Get(context);
             var range = Range.Get(context);
 
+
             ///////////////////////////
             // Add execution logic HERE
 
             // Create an Excel application object
-            // Create an Excel application object
-           
-
             Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 
             // Check if the workbook is already open
@@ -95,7 +93,7 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 {
                     workbook = wb;
                     break;
-                }   
+                }
             }
 
             // If the workbook is not open, open it
@@ -115,7 +113,15 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             }
 
             // Read the range from Excel
-            Microsoft.Office.Interop.Excel.Range excelRange = worksheet.Range[range];
+            Microsoft.Office.Interop.Excel.Range excelRange;
+            if (string.IsNullOrWhiteSpace(range))
+            {
+                excelRange = worksheet.UsedRange;
+            }
+            else
+            {
+                excelRange = worksheet.Range[range];
+            }
 
             // Get the data from the range
             object[,] excelData = (object[,])excelRange.Value;
@@ -154,7 +160,6 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             }
             System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
             System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-
 
 
             // Outputs
