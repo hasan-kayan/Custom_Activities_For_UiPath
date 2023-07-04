@@ -7,6 +7,7 @@ using LinkteraRobotics.Read.Excel.Range.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
 using Microsoft.Office.Interop.Excel;
+using static System.Net.Mime.MediaTypeNames;
 
 using DataTable = System.Data.DataTable;
 using System.Runtime.InteropServices;
@@ -80,17 +81,11 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             ///////////////////////////
             // Add execution logic HERE
 
-
             // Create an Excel application object
-            Application excelApp = null;
-            try
-            {
-                excelApp = (Microsoft.Office.Interop.Excel.Application)Marshal.GetActiveObject("Excel.Application");
-            }
-            catch (COMException)
-            {
-                throw new Exception("No active Excel instance found.");
-            }
+            // Create an Excel application object
+           
+
+            Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 
             // Check if the workbook is already open
             Workbook workbook = null;
@@ -100,7 +95,7 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 {
                     workbook = wb;
                     break;
-                }
+                }   
             }
 
             // If the workbook is not open, open it
@@ -114,8 +109,8 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             if (worksheet == null)
             {
                 workbook.Close();
-                Marshal.ReleaseComObject(workbook);
-                Marshal.ReleaseComObject(excelApp);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
                 throw new Exception($"Worksheet '{sheetname}' not found.");
             }
 
@@ -148,19 +143,17 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 dataTable.Rows.Add(dataRow);
             }
 
-
             // Clean up Excel objects
-            Marshal.ReleaseComObject(excelRange);
-            Marshal.ReleaseComObject(worksheet);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelRange);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
 
             // If the workbook was opened in this execution, close it
             if (workbook != null && !workbook.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
             {
                 workbook.Close();
             }
-            Marshal.ReleaseComObject(workbook);
-            Marshal.ReleaseComObject(excelApp);
-
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
 
 
 
