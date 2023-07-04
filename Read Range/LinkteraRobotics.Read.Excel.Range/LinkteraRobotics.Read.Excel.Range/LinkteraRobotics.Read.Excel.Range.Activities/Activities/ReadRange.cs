@@ -156,7 +156,7 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
 
             // Outputs
             return (ctx) => {
-                Output.Set(ctx, null);
+                Output.Set(ctx, dataTable);
             };
         }
 
