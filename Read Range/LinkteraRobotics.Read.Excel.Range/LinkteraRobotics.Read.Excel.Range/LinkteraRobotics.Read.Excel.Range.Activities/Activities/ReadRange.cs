@@ -126,6 +126,7 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
 
 
             // Copy the values from source worksheet to new worksheet
+            // Data copied in a new worksheet 
             Worksheet newWorksheet = workbook.Sheets.Add(Type.Missing, workbook.Sheets[workbook.Sheets.Count], Type.Missing, Type.Missing) as Worksheet;
             worksheet.UsedRange.Copy(newWorksheet.Cells[1, 1]);
             newWorksheet.PasteSpecial(XlPasteType.xlPasteValues, XlPasteSpecialOperation.xlPasteSpecialOperationNone);
