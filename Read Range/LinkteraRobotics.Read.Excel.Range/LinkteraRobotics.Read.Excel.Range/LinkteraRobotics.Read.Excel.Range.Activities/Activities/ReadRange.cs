@@ -124,6 +124,15 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 excelRange = worksheet.Range[range];
             }
 
+
+            // Copy the values from source worksheet to new worksheet
+            Worksheet newWorksheet = workbook.Sheets.Add(Type.Missing, workbook.Sheets[workbook.Sheets.Count], Type.Missing, Type.Missing) as Worksheet;
+            worksheet.UsedRange.Copy(newWorksheet.Cells[1, 1]);
+            newWorksheet.PasteSpecial(XlPasteType.xlPasteValues, XlPasteSpecialOperation.xlPasteSpecialOperationNone);
+
+
+
+
             // Get the data from the range
             object[,] excelData = (object[,])excelRange.Value;
 
