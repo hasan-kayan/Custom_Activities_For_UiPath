@@ -78,15 +78,12 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             var sheetname = Sheetname.Get(context);
             var range = Range.Get(context);
 
-            ///////////////////////////
-            // Add execution logic HERE
-
             // Create an Excel application object
             Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
 
             // Check if the workbook is already open
-            Workbook workbook = null;
-            foreach (Workbook wb in excelApp.Workbooks)
+            Microsoft.Office.Interop.Excel.Workbook workbook = null;
+            foreach (Microsoft.Office.Interop.Excel.Workbook wb in excelApp.Workbooks)
             {
                 if (wb.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
                 {
@@ -101,9 +98,9 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 workbook = excelApp.Workbooks.Open(filepath);
             }
 
-            // Get the worksheet
-            Worksheet worksheet = workbook.Sheets[sheetname] as Worksheet;
-            if (worksheet == null)
+            // Get the worksheet to be copied
+            Microsoft.Office.Interop.Excel.Worksheet sourceWorksheet = workbook.Sheets[sheetname] as Microsoft.Office.Interop.Excel.Worksheet;
+            if (sourceWorksheet == null)
             {
                 workbook.Close();
                 System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
@@ -111,58 +108,46 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
                 throw new Exception($"Worksheet '{sheetname}' not found.");
             }
 
-            // Read the range from Excel
-            // If range is empty or space read all data in the range 
-            Microsoft.Office.Interop.Excel.Range excelRange;
-            if (string.IsNullOrWhiteSpace(range))
-            {
-                excelRange = worksheet.UsedRange;
-            }
-            else
-            {
-                excelRange = worksheet.Range[range];
-            }
+            // Copy the entire worksheet
+            sourceWorksheet.Copy(Type.Missing, workbook.Sheets[workbook.Sheets.Count]);
 
-            // Create a new worksheet to paste the copied data
-            Worksheet newWorksheet = (Worksheet)workbook.Sheets.Add(After: workbook.Sheets[workbook.Sheets.Count]);
-            newWorksheet.Name = "CopiedData";
+            // Get the newly created worksheet
+            Microsoft.Office.Interop.Excel.Worksheet copiedWorksheet = workbook.Sheets[workbook.Sheets.Count] as Microsoft.Office.Interop.Excel.Worksheet;
 
-            // Copy and paste the data to the new worksheet
-            excelRange.Copy();
-            newWorksheet.Paste(newWorksheet.Range["A1"]);
+            // Paste the copied values as values only
+            copiedWorksheet.UsedRange.PasteSpecial(Microsoft.Office.Interop.Excel.XlPasteType.xlPasteValues, Microsoft.Office.Interop.Excel.XlPasteSpecialOperation.xlPasteSpecialOperationNone, Type.Missing, Type.Missing);
 
-            // Get the data from the new worksheet
-            object[,] copiedData = (object[,])newWorksheet.UsedRange.Value;
-
-            // Convert the copied data to a DataTable
-            DataTable dataTable = new DataTable();
-            int copiedRowCount = copiedData.GetLength(0);
-            int copiedColumnCount = copiedData.GetLength(1);
+            // Read the pasted range from the copied worksheet
+            System.Data.DataTable dataTable = new System.Data.DataTable();
+            Microsoft.Office.Interop.Excel.Range copiedRange = copiedWorksheet.UsedRange;
+            object[,] copiedData = (object[,])copiedRange.Value;
+            int rowCount = copiedData.GetLength(0);
+            int columnCount = copiedData.GetLength(1);
 
             // Create columns in the DataTable
-            for (int col = 1; col <= copiedColumnCount; col++)
+            for (int col = 1; col <= columnCount; col++)
             {
                 string columnName = copiedData[1, col]?.ToString() ?? $"Column{col}";
                 dataTable.Columns.Add(columnName);
             }
 
             // Add rows to the DataTable
-            for (int row = 2; row <= copiedRowCount; row++)
+            for (int row = 2; row <= rowCount; row++)
             {
                 DataRow dataRow = dataTable.NewRow();
-                for (int col = 1; col <= copiedColumnCount; col++)
+                for (int col = 1; col <= columnCount; col++)
                 {
                     dataRow[col - 1] = copiedData[row, col];
                 }
                 dataTable.Rows.Add(dataRow);
             }
 
-            // Delete the new worksheet
-            newWorksheet.Delete();
+            // Delete the copied worksheet
+            copiedWorksheet.Delete();
 
             // Clean up Excel objects
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelRange);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(copiedRange);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(sourceWorksheet);
 
             // If the workbook was opened in this execution, close it
             if (workbook != null && !workbook.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
@@ -171,6 +156,10 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             }
             System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
             System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+
+
+
+
 
             // Outputs
             return (ctx) => {
