@@ -113,6 +113,7 @@ namespace LinkteraRobotics.Read.Excel.Range.Activities
             }
 
             // Read the range from Excel
+            // If range is empty or space read all data in the range 
             Microsoft.Office.Interop.Excel.Range excelRange;
             if (string.IsNullOrWhiteSpace(range))
             {
