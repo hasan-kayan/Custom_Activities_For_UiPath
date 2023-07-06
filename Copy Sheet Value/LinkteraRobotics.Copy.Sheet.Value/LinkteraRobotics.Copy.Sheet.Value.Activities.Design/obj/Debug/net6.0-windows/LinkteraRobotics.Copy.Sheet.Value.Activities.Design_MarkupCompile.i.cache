@@ -1,0 +1,20 @@
+﻿LinkteraRobotics.Copy.Sheet.Value.Activities.Design
+1.0.0.0
+
+library
+C#
+.cs
+C:\Users\hasan\Desktop\Copy Sheet Value\LinkteraRobotics.Copy.Sheet.Value\LinkteraRobotics.Copy.Sheet.Value.Activities.Design\obj\Debug\net6.0-windows\
+LinkteraRobotics.Copy.Sheet.Value.Activities.Design
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+
+7942417859
+
+20-1324377568
+2151997972088
+..\..\Shared\Themes\Generic.xaml;Designers\CopySheetValueDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Copy Sheet Value\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Copy Sheet Value\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Copy Sheet Value\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Copy Sheet Value\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+
+False
+
