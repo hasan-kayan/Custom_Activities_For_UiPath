@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pkhf8uPa3iSPPkHBjai6jWspQzI9oiusODd+jAh7RIK/MZEZfr3z9Mtw4o1gOd8MoUDcwdYvL/dA/5rLR4rGBA==",
+  "dgSpecHash": "l/3P8kHspNPAeHBFiy/LAP/LkQwKr0TpGnEwxdAbBqOQY/sJjIhojp3sg+av6/Uca+KNLGvKrF6J3ZsIj3SvOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\Copy Sheet Value\\LinkteraRobotics.Copy.Sheet.Value\\LinkteraRobotics.Copy.Sheet.Value.Activities.Design\\LinkteraRobotics.Copy.Sheet.Value.Activities.Design.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.0.1\\microsoft.codeanalysis.visualbasic.4.0.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.core\\0.2.1-preview\\microsoft.powerfx.core.0.2.1-preview.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.interpreter\\0.2.1-preview\\microsoft.powerfx.interpreter.0.2.1-preview.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.powerfx.transport.attributes\\0.2.1-preview\\microsoft.powerfx.transport.attributes.0.2.1-preview.nupkg.sha512",
