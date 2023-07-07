@@ -11,6 +11,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 using DataTable = System.Data.DataTable;
 using System.Runtime.InteropServices;
+using System.Text;
 
 namespace LinkteraRobotics.Copy.Sheet.Value.Activities
 {
@@ -117,6 +118,10 @@ namespace LinkteraRobotics.Copy.Sheet.Value.Activities
                 throw new Exception($"Worksheet '{sheetName}' not found.");
             }
 
+
+            // Yeni bir çalýþma sayfasý ekle
+            Microsoft.Office.Interop.Excel.Worksheet newWorksheet = workbook.Sheets.Add(After: workbook.ActiveSheet) as Microsoft.Office.Interop.Excel.Worksheet;
+
             try
             {
                 // Tüm hücreleri seç ve kopyala
@@ -124,8 +129,6 @@ namespace LinkteraRobotics.Copy.Sheet.Value.Activities
                 cells.Select();
                 cells.Copy();
 
-                // Yeni bir çalýþma sayfasý ekle
-                Microsoft.Office.Interop.Excel.Worksheet newWorksheet = workbook.Sheets.Add(After: workbook.ActiveSheet) as Microsoft.Office.Interop.Excel.Worksheet;
 
                 // Yapýþtýrma iþlemini gerçekleþtir
                 Microsoft.Office.Interop.Excel.Range pasteRange = newWorksheet.Cells;
@@ -140,9 +143,61 @@ namespace LinkteraRobotics.Copy.Sheet.Value.Activities
             }
 
 
+            try
+            {
+                // Yeni çalýþma sayfasýnda veriyi oku
+                Microsoft.Office.Interop.Excel.Range excelRange;
+                if (string.IsNullOrWhiteSpace(targetrange))
+                {
+                    excelRange = newWorksheet.UsedRange;
+                }
+                else
+                {
+                    excelRange = newWorksheet.Range[targetrange];
+                }
 
+                // Veriyi oku
+                object[,] excelData = (object[,])excelRange.Value;
 
+                // DataTable oluþtur ve verileri aktar
+                DataTable dataTable = new DataTable();
+                int rowCount = excelData.GetLength(0);
+                int columnCount = excelData.GetLength(1);
 
+                for (int col = 1; col <= columnCount; col++)
+                {
+                    string columnName = excelData[1, col]?.ToString() ?? $"Column{col}";
+                    dataTable.Columns.Add(columnName);
+                }
+
+                for (int row = 2; row <= rowCount; row++)
+                {
+                    DataRow dataRow = dataTable.NewRow();
+                    for (int col = 1; col <= columnCount; col++)
+                    {
+                        dataRow[col - 1] = excelData[row, col];
+                    }
+                    dataTable.Rows.Add(dataRow);
+                }
+
+                // Excel nesnelerini temizle
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelRange);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(newWorksheet);
+
+                // Eðer bu çalýþmada dosya açýldýysa, kapat
+                if (workbook != null && !workbook.FullName.Equals(filepath, StringComparison.OrdinalIgnoreCase))
+                {
+                    workbook.Close();
+                }
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+
+                // DataTable'ý kullanmak için istediðiniz iþlemleri yapabilirsiniz
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Hata: " + ex.Message);
+            }
 
 
 
