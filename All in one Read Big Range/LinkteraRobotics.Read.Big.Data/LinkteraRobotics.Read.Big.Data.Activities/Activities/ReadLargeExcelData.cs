@@ -184,6 +184,8 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
                         startRow += batchSize;
                         remainingRows -= rowsToRead;
+
+                        OutputTable.Set(context, dataTable);
                     }
 
                   
