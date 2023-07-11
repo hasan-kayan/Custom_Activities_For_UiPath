@@ -92,6 +92,9 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
             Excel.Worksheet worksheet = null;
             Excel.Worksheet newWorksheet = null;
 
+            DataTable dataTable = null;
+
+
             try
             {
                 worksheet = (Excel.Worksheet)workbook.Sheets[sheetName];
@@ -129,7 +132,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                     int rowCount = excelRange.Rows.Count;
                     int columnCount = excelRange.Columns.Count;
 
-                    DataTable dataTable = new DataTable();
+                    
 
                     // Read column names
                     for (int col = 1; col <= columnCount; col++)
@@ -210,3 +213,11 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
     }
 }
 
+
+
+
+
+
+
+// Data table kodda try içinden kalktý try dýþýna tanýmlandý kullanýmýndan emin ol ve value methodunu araþtýr hatayý gider 
+// sakýn sik sik yeni bi þey deneme vakit yok consolu aynen buraya eklememiz þart
