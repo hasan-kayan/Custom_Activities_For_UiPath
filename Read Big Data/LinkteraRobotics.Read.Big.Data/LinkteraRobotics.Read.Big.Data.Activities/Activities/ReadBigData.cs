@@ -137,7 +137,9 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                     // Read column names
                     for (int col = 1; col <= columnCount; col++)
                     {
-                        string columnName = excelRange.Cells[1, col]?.Value?.ToString() ?? $"Column{col}";
+                        string columnName = (excelRange.Cells[1, col] as Excel.Range)?.Value?.ToString() ?? $"Column{col}";
+
+
                         dataTable.Columns.Add(columnName);
                     }
                     Console.WriteLine("Column names read");
