@@ -1,0 +1,13 @@
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\LinkteraRobotics.Read.Big.Data.Activities.Design.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\Themes\Icons.baml
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\ComboboxControl.baml
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\FilePathControl.baml
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\RestrictiveBodyConnector.baml
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\Designers\ReadLargeExcelDataDesigner.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\ComboboxControl.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\FilePathControl.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\RestrictiveBodyConnector.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\EditorTemplates.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\LinkteraRobotics.Read.Big.Data.Activities.Design_MarkupCompile.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\LinkteraRobotics.Read.Big.Data\LinkteraRobotics.Read.Big.Data.Activities.Design\obj\Debug\net6.0-windows\LinkteraRobotics.Read.Big.Data.Activities.Design_MarkupCompile.lref
