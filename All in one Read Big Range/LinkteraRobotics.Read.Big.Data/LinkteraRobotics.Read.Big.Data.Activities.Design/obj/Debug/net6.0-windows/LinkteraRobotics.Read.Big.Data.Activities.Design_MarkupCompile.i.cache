@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-61455528528
+7630089517
 
-18198436125
+20-1882076751
 2151145813364
-..\..\Shared\Themes\Generic.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+..\..\Shared\Themes\Generic.xaml;Designers\ReadLargeExcelDataDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Linktera.Robotics.RPA\All in one Read Big Range\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
-True
+False
 
