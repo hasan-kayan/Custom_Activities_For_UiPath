@@ -6,6 +6,10 @@ using System.Data;
 using LinkteraRobotics.Read.Big.Data.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
+using Excel = Microsoft.Office.Interop.Excel;
+
+DataTable table = new DataTable();
+
 
 namespace LinkteraRobotics.Read.Big.Data.Activities
 {
@@ -77,9 +81,15 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
             // Add execution logic HERE
             ///////////////////////////
 
+
+
+
+
+
+
             // Outputs
             return (ctx) => {
-                OutputTable.Set(ctx, null);
+                OutputTable.Set(ctx, OutputTable);
             };
         }
 
