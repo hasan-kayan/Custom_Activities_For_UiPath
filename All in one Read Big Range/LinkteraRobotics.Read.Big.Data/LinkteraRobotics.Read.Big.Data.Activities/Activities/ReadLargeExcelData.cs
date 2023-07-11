@@ -91,7 +91,16 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
             Console.WriteLine("Checking inputs: ");
             Console.WriteLine("Target Excel File Path: " + excelfilepath);
             Console.WriteLine("Target Excel Sheet: " + sheetName);
-            Console.WriteLine("Target Range" +  range);
+            if (string.IsNullOrWhiteSpace(range))
+            {
+                Console.WriteLine("All data in current sheet will be read.");
+                
+            }
+            else
+            {
+                Console.WriteLine("The range : " + range + " will be read.");
+               
+            }
 
 
             // STARTING EXCEL 
@@ -144,7 +153,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
                     int rowCount = excelRange.Rows.Count;
                     int columnCount = excelRange.Columns.Count;
-
+                    Console.WriteLine("Data Table is Creating...");
                     DataTable dataTable = new DataTable();
 
                     // Read column names
@@ -154,15 +163,16 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
                         dataTable.Columns.Add(columnName);
                     }
-                    Console.WriteLine("Column names read");
+                    Console.WriteLine("Column names read.");
 
                     // Read data in smaller chunks (rows)
                     const int batchSize = 1000;
                     int remainingRows = rowCount - 1;
                     int startRow = 2;
-
+                    Console.WriteLine("Data is reading in chunks, this may take some time...");
                     while (remainingRows > 0)
                     {
+                        Console.WriteLine("Loop is starting...");
                         int rowsToRead = Math.Min(batchSize, remainingRows);
                         int endRow = startRow + rowsToRead - 1;
 
@@ -186,6 +196,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                         remainingRows -= rowsToRead;
 
                         OutputTable.Set(context, dataTable);
+                        Console.WriteLine("Data table is ready to use !");
                     }
 
                   
@@ -198,6 +209,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
             catch (Exception ex)
             {
                 Console.WriteLine($"Error occurred: {ex.Message}");
+                Console.WriteLine("Process terminated unsuccessfully");
             }
             finally
             {
@@ -214,11 +226,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                 GC.WaitForPendingFinalizers();
             }
 
-
-
-
-
-            
+            Console.WriteLine("Process completed.");
 
 
             // Outputs
