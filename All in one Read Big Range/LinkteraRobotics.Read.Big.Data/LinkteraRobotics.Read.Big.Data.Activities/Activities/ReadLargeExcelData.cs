@@ -108,6 +108,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
             try
             {
+                Console.WriteLine("Process is starting.");
                 worksheet = (Excel.Worksheet)workbook.Sheets[sheetName];
 
                 Console.WriteLine("Copying Cells");
@@ -115,15 +116,16 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                 cells.Copy();
                 Console.WriteLine("Cells Copied");
 
-                Console.WriteLine("Creating New Sheet");
+                Console.WriteLine("Creating a temporary worksheet.");
                 newWorksheet = (Excel.Worksheet)workbook.Sheets.Add(After: workbook.ActiveSheet);
                 newWorksheet.Name = "Copied";
-                Console.WriteLine("New Sheet named 'Copied' Created");
+                Console.WriteLine("Temporary sheet created ! ");
 
                 Excel.Range pasteRange = newWorksheet.Cells;
                 pasteRange.PasteSpecial(Excel.XlPasteType.xlPasteValues, Excel.XlPasteSpecialOperation.xlPasteSpecialOperationNone,
                     SkipBlanks: false, Transpose: false);
-                Console.WriteLine("Paste Special Completed");
+                Console.WriteLine("Special pasted values to temproray worksheet.");
+                Console.WriteLine("Checking range status.");
 
                 if (newWorksheet != null)
                 {
@@ -184,15 +186,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                         remainingRows -= rowsToRead;
                     }
 
-                    Console.WriteLine("Data Table Content:");
-                    foreach (DataRow row in dataTable.Rows)
-                    {
-                        foreach (DataColumn col in dataTable.Columns)
-                        {
-                            Console.Write(row[col] + "\t");
-                        }
-                        Console.WriteLine();
-                    }
+                  
                 }
                 else
                 {
@@ -222,8 +216,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
 
 
-
-
+            
 
 
             // Outputs
