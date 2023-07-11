@@ -136,7 +136,9 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
 
                     // Read column names
                     for (int col = 1; col <= columnCount; col++)
+
                     {
+                        Console.WriteLine("Expectetaion 0 ");
                         string columnName = (excelRange.Cells[1, col] as Excel.Range)?.Value?.ToString() ?? $"Column{col}";
 
 
@@ -145,33 +147,48 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                     Console.WriteLine("Column names read");
 
                     // Read data in smaller chunks (rows)
+                    Console.WriteLine("1");
                     const int batchSize = 1000;
+                    Console.WriteLine("2");
                     int remainingRows = rowCount - 1;
                     int startRow = 2;
 
                     while (remainingRows > 0)
                     {
+                        Console.WriteLine("3");
                         int rowsToRead = Math.Min(batchSize, remainingRows);
+                        Console.WriteLine("4");
                         int endRow = startRow + rowsToRead - 1;
-
+                        Console.WriteLine("5");
                         Excel.Range dataRange = excelRange.Range[excelRange.Cells[startRow, 1], excelRange.Cells[endRow, columnCount]];
+                        Console.WriteLine("6");
                         object[,] excelData = (object[,])dataRange.Value;
+                        Console.WriteLine("7");
                         Console.WriteLine($"Read rows {startRow} to {endRow}");
+                        Console.WriteLine("8");
 
                         // Transfer data to the DataTable
                         for (int row = 1; row <= rowsToRead; row++)
                         {
+                            Console.WriteLine("9");
                             DataRow dataRow = dataTable.NewRow();
+                            Console.WriteLine("10");
                             for (int col = 1; col <= columnCount; col++)
                             {
+                                Console.WriteLine("11");
                                 dataRow[col - 1] = excelData[row, col];
+                                Console.WriteLine("12");
                             }
                             dataTable.Rows.Add(dataRow);
+                            Console.WriteLine("13");
                         }
                         Console.WriteLine($"Transferred rows {startRow} to {endRow}");
+                        Console.WriteLine("14");
 
                         startRow += batchSize;
+                        Console.WriteLine("15");
                         remainingRows -= rowsToRead;
+                        Console.WriteLine("16");
                     }
 
                    
@@ -187,6 +204,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
             }
             finally
             {
+                Console.WriteLine("End");
                 newWorksheet?.Activate();
                 workbook.Close(false); // False states that dont save changes !!!!!!!!!
                 excelApp.Quit();
