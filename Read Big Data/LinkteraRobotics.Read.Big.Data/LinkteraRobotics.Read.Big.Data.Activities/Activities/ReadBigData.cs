@@ -132,18 +132,15 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
                     int rowCount = excelRange.Rows.Count;
                     int columnCount = excelRange.Columns.Count;
 
-                    
 
                     // Read column names
-                    for (int col = 1; col <= columnCount; col++)
-
+                    Excel.Range columnRange = (Excel.Range)excelRange.Rows[1];
+                    foreach (Excel.Range columnCell in columnRange.Cells)
                     {
-                        Console.WriteLine("Expectetaion 0 ");
-                        string columnName = (excelRange.Cells[1, col] as Excel.Range)?.Value?.ToString() ?? $"Column{col}";
-
-
+                        string columnName = columnCell.Value?.ToString() ?? $"Column{columnCell.Column}";
                         dataTable.Columns.Add(columnName);
                     }
+
                     Console.WriteLine("Column names read");
 
                     // Read data in smaller chunks (rows)
