@@ -83,7 +83,7 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
             ///
 
 
-            Console.WriteLine("HOPE WORKS");
+            Console.WriteLine("HOPE WORKS / Output added");
 
 
             Excel.Application excelApp = new Excel.Application();
@@ -217,7 +217,7 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
 
             // Outputs
             return (ctx) => {
-                Data.Set(ctx, null);
+                Data.Set(ctx, dataTable);
             };
         }
 
