@@ -68,7 +68,7 @@ namespace LinkteraRobotics.Read.Big.Data.Activities
         protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
             // Inputs
-            var path = Paht.Get(context);
+            var path = Paht.Get(context); // Deðiþken adlarýný doðru tanýmla ve yapýlandýr
             var sheetname = SheetName.Get(context);
             var range = Range.Get(context);
 
