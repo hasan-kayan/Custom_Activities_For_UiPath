@@ -8,6 +8,7 @@ using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
 using Microsoft.Office.Interop.Excel;
 
+
 using Excel = Microsoft.Office.Interop.Excel;
 using DataTable = System.Data.DataTable;
 
@@ -83,11 +84,12 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
             ///
 
 
-            Console.WriteLine("HOPE WORKS / Output added");
-
+            Console.WriteLine("HOPE WORKS / Output added ");
+            Console.WriteLine("Output added, no button cannot cancel.");
+            Console.WriteLine("ClipBoardclear");
 
             Excel.Application excelApp = new Excel.Application();
-            excelApp.Visible = false;
+            excelApp.Visible = true; // Hayýr a basma durumunu kontrol et
 
             Console.WriteLine("Workbook detection...");
             Excel.Workbook workbook = excelApp.Workbooks.Open(path);
@@ -97,6 +99,9 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
 
 
 
+           
+
+
             try
             {
                 worksheet = (Worksheet)workbook.Sheets[sheetname];
@@ -104,6 +109,9 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
                 Console.WriteLine("Copying Cells");
                 Excel.Range cells = worksheet.Cells;
                 cells.Copy();
+                cells.Select();
+               
+
                 Console.WriteLine("Cells Copied");
 
                 Console.WriteLine("Creating New Sheet");
@@ -147,7 +155,7 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
                     // Read data in smaller chunks (rows)
                     const int batchSize = 1000;
                     int remainingRows = rowCount - 1;
-                    int startRow = 2;
+                    int startRow = 0;
 
                     while (remainingRows > 0)
                     {
@@ -174,7 +182,10 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
                         remainingRows -= rowsToRead;
                     }
 
-                   
+                    Excel.Range clipBoardClear = newWorksheet.Range["A1"];
+                    clipBoardClear.Copy();
+
+
                 }
                 else
                 {
@@ -203,9 +214,10 @@ namespace Linktare.Robotics.Read.Big.Data.Activities
 
 
 
+            
 
 
-
+            
 
 
 
