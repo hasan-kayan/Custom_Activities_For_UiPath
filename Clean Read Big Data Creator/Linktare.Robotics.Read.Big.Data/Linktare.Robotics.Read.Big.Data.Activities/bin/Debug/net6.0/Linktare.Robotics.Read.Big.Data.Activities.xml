@@ -4,7 +4,7 @@
         <name>Linktare.Robotics.Read.Big.Data.Activities</name>
     </assembly>
     <members>
-        <member name="P:Linktare.Robotics.Read.Big.Data.Activities.ReadBigData.ContinueOnError">
+        <member name="P:Linktera.Robotics.Read.Big.Data.Activities.ReadBigData.ContinueOnError">
             <summary>
             If set, continue executing the remaining activities even if the current activity has failed.
             </summary>

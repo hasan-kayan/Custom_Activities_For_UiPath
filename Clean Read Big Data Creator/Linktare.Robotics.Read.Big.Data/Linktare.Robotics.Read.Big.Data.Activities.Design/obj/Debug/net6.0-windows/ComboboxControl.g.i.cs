@@ -85,7 +85,7 @@ namespace UiPath.Shared.Activities.Design.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Linktare.Robotics.Read.Big.Data.Activities.Design;V1.0.0.0;component/controls/co" +
+            System.Uri resourceLocater = new System.Uri("/Linktera.Robotics.Read.Big.Data.Activities.Design;V1.0.0.0;component/controls/co" +
                     "mboboxcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml"

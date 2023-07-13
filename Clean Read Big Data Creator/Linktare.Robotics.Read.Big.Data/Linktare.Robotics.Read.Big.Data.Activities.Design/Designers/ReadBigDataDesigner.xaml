@@ -24,6 +24,10 @@
 
     <uip:ActivityDecoratorControl Style="{StaticResource ActivityDecoratorStyle}">
         <Grid Width="300">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="23*"/>
+                <ColumnDefinition Width="52*"/>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -33,25 +37,25 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Label Content="{x:Static activity:Resources.ReadBigData_Path_DisplayName}" Grid.Row="0"
-                   ToolTip="{x:Static activity:Resources.ReadBigData_Path_Description}"/>
-            <sapv:ExpressionTextBox Grid.Row="1" ExpressionType="{Binding ModelItem.Properties[Path].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Path_Description}" UseLocationExpression="False">
+            <Label Content="Path" Grid.Row="0"
+                   ToolTip="{x:Static activity:Resources.ReadBigData_Path_Description}" Grid.ColumnSpan="2"/>
+            <sapv:ExpressionTextBox Grid.Row="1" ExpressionType="{Binding ModelItem.Properties[Path].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Path_Description}" UseLocationExpression="False" Grid.ColumnSpan="2">
                 <sapv:ExpressionTextBox.Expression>
                     <Binding Path="ModelItem.Path" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
                 </sapv:ExpressionTextBox.Expression>
             </sapv:ExpressionTextBox>
 
-            <Label Content="{x:Static activity:Resources.ReadBigData_Sheetname_DisplayName}" Grid.Row="2"
-                   ToolTip="{x:Static activity:Resources.ReadBigData_Sheetname_Description}"/>
-            <sapv:ExpressionTextBox Grid.Row="3" ExpressionType="{Binding ModelItem.Properties[Sheetname].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Sheetname_Description}" UseLocationExpression="False">
+            <Label Content="Sheet Name" Grid.Row="2"
+                   ToolTip="{x:Static activity:Resources.ReadBigData_Sheetname_Description}" Grid.ColumnSpan="2"/>
+            <sapv:ExpressionTextBox Grid.Row="3" ExpressionType="{Binding ModelItem.Properties[Sheetname].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Sheetname_Description}" UseLocationExpression="False" Grid.ColumnSpan="2">
                 <sapv:ExpressionTextBox.Expression>
                     <Binding Path="ModelItem.Sheetname" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
                 </sapv:ExpressionTextBox.Expression>
             </sapv:ExpressionTextBox>
 
-            <Label Content="{x:Static activity:Resources.ReadBigData_Range_DisplayName}" Grid.Row="4"
-                   ToolTip="{x:Static activity:Resources.ReadBigData_Range_Description}"/>
-            <sapv:ExpressionTextBox Grid.Row="5" ExpressionType="{Binding ModelItem.Properties[Range].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Range_Description}" UseLocationExpression="False">
+            <Label Content="Range" Grid.Row="4"
+                   ToolTip="{x:Static activity:Resources.ReadBigData_Range_Description}" Grid.ColumnSpan="2"/>
+            <sapv:ExpressionTextBox Grid.Row="5" ExpressionType="{Binding ModelItem.Properties[Range].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ReadBigData_Range_Description}" UseLocationExpression="False" Grid.ColumnSpan="2">
                 <sapv:ExpressionTextBox.Expression>
                     <Binding Path="ModelItem.Range" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
                 </sapv:ExpressionTextBox.Expression>

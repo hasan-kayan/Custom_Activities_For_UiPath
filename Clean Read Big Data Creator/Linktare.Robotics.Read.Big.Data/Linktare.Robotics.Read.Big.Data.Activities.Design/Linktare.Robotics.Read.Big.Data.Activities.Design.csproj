@@ -2,19 +2,19 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
-		<RootNamespace>Linktare.Robotics.Read.Big.Data.Activities.Design</RootNamespace>
-		<AssemblyName>Linktare.Robotics.Read.Big.Data.Activities.Design</AssemblyName>
-    <PackageId>Linktare.Robotics.Read.Big.Data.Activities</PackageId>
+		<RootNamespace>Linktera.Robotics.Read.Big.Data.Activities.Design</RootNamespace>
+		<AssemblyName>Linktera.Robotics.Read.Big.Data.Activities.Design</AssemblyName>
+    <PackageId>Linktera.Robotics.Read.Big.Data.Activities</PackageId>
     <EnableDefaultPageItems>false</EnableDefaultPageItems>
   </PropertyGroup>
   <!-- Package Metadata -->
   <PropertyGroup>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Description>This package was generated using the UiPath VS Extension.</Description>
-    <Authors>Company</Authors>
-    <Company>Company</Company>
-    <Copyright>© 2022 Company</Copyright>
+    <Description>This package contains a reading activity developed by Linktera Robotics to read data from Excel files containing large amounts of data for a specific purpose.</Description>
+    <Authors>Linktera Robotics</Authors>
+    <Company>Linktera Robotics</Company>
+    <Copyright>2023 Linktera Robotics</Copyright>
     <PackageTags>UiPath Activit𝗒</PackageTags>
     <PackageProjectUrl>https://docs.uipath.com/integrations/docs/how-to-create-activities</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</PackageIconUrl>

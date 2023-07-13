@@ -12,7 +12,7 @@ using Microsoft.Office.Interop.Excel;
 using Excel = Microsoft.Office.Interop.Excel;
 using DataTable = System.Data.DataTable;
 
-namespace Linktare.Robotics.Read.Big.Data.Activities
+namespace Linktera.Robotics.Read.Big.Data.Activities
 {
     [LocalizedDisplayName(nameof(Resources.ReadBigData_DisplayName))]
     [LocalizedDescription(nameof(Resources.ReadBigData_Description))]

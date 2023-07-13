@@ -55,7 +55,7 @@ namespace UiPath.Shared.Activities.Design.Editors {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Linktare.Robotics.Read.Big.Data.Activities.Design;V1.0.0.0;component/editors/edi" +
+            System.Uri resourceLocater = new System.Uri("/Linktera.Robotics.Read.Big.Data.Activities.Design;V1.0.0.0;component/editors/edi" +
                     "tortemplates.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml"

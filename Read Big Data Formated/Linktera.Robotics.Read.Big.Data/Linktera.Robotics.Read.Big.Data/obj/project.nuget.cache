@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d42rKOKybmN+SDXmu0qfGglEaQrTWENktDg4eFMdCwbZOH7H75BhPOvuLeP7DvATSQsTrrmq/xEBaZeiCbdbhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Linktera.Robotics.RPA\\Read Big Data Formated\\Linktera.Robotics.Read.Big.Data\\Linktera.Robotics.Read.Big.Data\\Linktera.Robotics.Read.Big.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

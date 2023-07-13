@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.Design.dll
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.Design.pdb
+C:\Users\hasan\Desktop\Formated Read Range\Microsoft.Office.Interop.Excel.dll
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.dll
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.pdb
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.xml
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.Design.xml
+C:\Users\hasan\Desktop\Formated Read Range\Linktera.Robotics.Read.Big.Data.Activities.Design.deps.json
