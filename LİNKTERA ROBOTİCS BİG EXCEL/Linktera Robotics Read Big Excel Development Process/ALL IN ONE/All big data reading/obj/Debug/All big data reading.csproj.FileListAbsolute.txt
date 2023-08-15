@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\obj\Debug\All big data reading.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\obj\Debug\All big data reading.csproj.SuggestedBindingRedirects.cache
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\obj\Debug\All big data reading.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\bin\Debug\All big data reading.exe.config
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\bin\Debug\All big data reading.exe
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\bin\Debug\All big data reading.pdb
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\obj\Debug\All big data reading.exe
+C:\Users\hasan\Desktop\.NET TESTS\ALL IN ONE\All big data reading\obj\Debug\All big data reading.pdb

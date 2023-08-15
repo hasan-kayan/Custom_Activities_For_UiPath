@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\bin\Debug\COPY-PASTE-READ Range.exe.config
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\bin\Debug\COPY-PASTE-READ Range.exe
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\bin\Debug\COPY-PASTE-READ Range.pdb
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\obj\Debug\COPY-PASTE-READ Range.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\obj\Debug\COPY-PASTE-READ Range.csproj.SuggestedBindingRedirects.cache
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\obj\Debug\COPY-PASTE-READ Range.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\obj\Debug\COPY-PASTE-READ Range.exe
+C:\Users\hasan\Desktop\.NET TESTS\COPY_PASTE_READ TEST\COPY-PASTE-READ Range\obj\Debug\COPY-PASTE-READ Range.pdb

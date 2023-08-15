@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\bin\Debug\MakroAprroachCopyRange.exe.config
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\bin\Debug\MakroAprroachCopyRange.exe
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\bin\Debug\MakroAprroachCopyRange.pdb
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\obj\Debug\MakroAprroachCopyRange.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\obj\Debug\MakroAprroachCopyRange.csproj.SuggestedBindingRedirects.cache
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\obj\Debug\MakroAprroachCopyRange.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\obj\Debug\MakroAprroachCopyRange.exe
+C:\Users\hasan\Desktop\.NET TESTS\MAKRO Approach for Read\MakroAprroachCopyRange\obj\Debug\MakroAprroachCopyRange.pdb

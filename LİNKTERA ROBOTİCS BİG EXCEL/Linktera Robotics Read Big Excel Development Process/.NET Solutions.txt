@@ -1,0 +1,2 @@
+If there is a .NET version setup situation work with Visual Studio Installer. Click on Studio you have been using on and scrol down. 
+You will see versions
