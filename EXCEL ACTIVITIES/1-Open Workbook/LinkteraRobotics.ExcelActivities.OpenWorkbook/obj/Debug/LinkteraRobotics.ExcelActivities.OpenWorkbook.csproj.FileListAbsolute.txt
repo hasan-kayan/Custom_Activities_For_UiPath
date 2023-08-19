@@ -1,0 +1,6 @@
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.pdb
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll
+C:\Users\hasan\Desktop\Linktera.Robotics.RPA\EXCEL ACTIVITIES\1-Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\LinkteraRobotics.ExcelActivities.OpenWorkbook.pdb

@@ -27,7 +27,7 @@ namespace LinkteraRobotics.ExcelActivities.OpenWorkbook
         public InArgument<string> Path { get; set; }
 
         [Category("Input")]
-        [DisplayName("Sheetname")]
+        [DisplayName("Sheet Name")]
         [Description("Enter the sheet name to open.")]
         [RequiredArgument]
         public InArgument<string> Sheetname { get; set; }
