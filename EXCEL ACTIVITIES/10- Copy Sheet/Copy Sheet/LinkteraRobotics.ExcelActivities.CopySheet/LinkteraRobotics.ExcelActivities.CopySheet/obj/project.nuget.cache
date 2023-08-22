@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KUUZjTHqdS0/ekf8eYimRo7EqH4TNqJxzGIta1mYUpsdruuadGiakYmlrd7567bGnpCF0Q/l7Rg73ZinlAE2Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Copy Sheet\\LinkteraRobotics.ExcelActivities.CopySheet\\LinkteraRobotics.ExcelActivities.CopySheet\\LinkteraRobotics.ExcelActivities.CopySheet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

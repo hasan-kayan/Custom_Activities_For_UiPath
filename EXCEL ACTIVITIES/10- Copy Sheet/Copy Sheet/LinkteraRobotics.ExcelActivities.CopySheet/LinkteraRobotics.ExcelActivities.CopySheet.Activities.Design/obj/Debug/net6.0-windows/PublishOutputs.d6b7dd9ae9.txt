@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.Design.dll
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.Design.pdb
+C:\Users\hasan\Desktop\Copy Sheet\Published\Microsoft.Office.Interop.Excel.dll
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.dll
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.pdb
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.xml
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.Design.xml
+C:\Users\hasan\Desktop\Copy Sheet\Published\LinkteraRobotics.ExcelActivities.CopySheet.Activities.Design.deps.json
