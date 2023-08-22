@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9xQPo/sJZIlqFbCaFgQBlf4HlcDAt+6i89V+c9Ia43CQrtLR3UtMK1DWy0nOmx1Gf3tlx8aX8N00NJhEWXggSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Close Workbook\\LinkteraRobotics.ExcelActivities.CloseWorkbook\\LinkteraRobotics.ExcelActivities.CloseWorkbook\\LinkteraRobotics.ExcelActivities.CloseWorkbook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
