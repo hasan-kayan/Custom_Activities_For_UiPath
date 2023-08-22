@@ -1,0 +1,8 @@
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.Design.dll
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.Design.pdb
+C:\Users\hasan\Desktop\Read Cell\Published\Microsoft.Office.Interop.Excel.dll
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.dll
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.pdb
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.xml
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.Design.xml
+C:\Users\hasan\Desktop\Read Cell\Published\LinkteraRobotics.ExcelActivities.ReadCell.Activities.Design.deps.json

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L3LF6f7ugIzhWRqCJ3nbbuWzZDo9AnoEngtQpscnyNVHbgK0DjPdXv1j3ZUEUdRdGLkGcDXT5UQUXPufDfXyuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Read Cell\\LinkteraRobotics.ExcelActivities.ReadCell\\LinkteraRobotics.ExcelActivities.ReadCell\\LinkteraRobotics.ExcelActivities.ReadCell.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

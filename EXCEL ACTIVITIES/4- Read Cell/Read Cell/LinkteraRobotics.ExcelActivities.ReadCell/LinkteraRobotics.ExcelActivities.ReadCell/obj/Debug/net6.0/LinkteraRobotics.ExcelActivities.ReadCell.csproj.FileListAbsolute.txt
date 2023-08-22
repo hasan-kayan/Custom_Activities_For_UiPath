@@ -1,0 +1,15 @@
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.deps.json
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.dll
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.pdb
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.xml
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.Properties.Resources.resources
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.csproj.GenerateResource.cache
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.AssemblyInfo.cs
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.dll
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\refint\LinkteraRobotics.ExcelActivities.ReadCell.dll
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.ReadCell.pdb
+C:\Users\hasan\Desktop\Read Cell\LinkteraRobotics.ExcelActivities.ReadCell\LinkteraRobotics.ExcelActivities.ReadCell\obj\Debug\net6.0\ref\LinkteraRobotics.ExcelActivities.ReadCell.dll
