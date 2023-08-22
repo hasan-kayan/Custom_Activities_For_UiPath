@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2JP0SG6AZx9KHnQ7XqEQJp2dg9Hq4uchEXcNf4DwHR8GsyOLE7ELeGIMUb5cB2qPlgBYJuh3q12GD9G92cLxvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Open Workbook\\LinkteraRobotics.ExcelActivities.OpenWorkbook\\LinkteraRobotics.ExcelActivities.OpenWorkbook\\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

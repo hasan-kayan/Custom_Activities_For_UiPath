@@ -1,0 +1,15 @@
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.deps.json
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.pdb
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\bin\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.xml
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.Properties.Resources.resources
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj.GenerateResource.cache
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.AssemblyInfo.cs
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\refint\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\LinkteraRobotics.ExcelActivities.OpenWorkbook.pdb
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\obj\Debug\net6.0\ref\LinkteraRobotics.ExcelActivities.OpenWorkbook.dll

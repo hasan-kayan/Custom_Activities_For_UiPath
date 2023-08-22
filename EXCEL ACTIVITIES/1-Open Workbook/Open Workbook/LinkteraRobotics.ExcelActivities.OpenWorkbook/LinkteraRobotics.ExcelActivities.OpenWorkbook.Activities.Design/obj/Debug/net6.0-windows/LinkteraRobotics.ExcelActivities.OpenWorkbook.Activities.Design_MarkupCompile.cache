@@ -1,0 +1,20 @@
+﻿LinkteraRobotics.ExcelActivities.OpenWorkbook.Activities.Design
+1.0.0.0
+
+library
+C#
+.cs
+C:\Users\hasan\Desktop\Open Workbook\LinkteraRobotics.ExcelActivities.OpenWorkbook\LinkteraRobotics.ExcelActivities.OpenWorkbook.Activities.Design\obj\Debug\net6.0-windows\
+LinkteraRobotics.ExcelActivities.OpenWorkbook.Activities.Design
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+
+7-1228711842
+
+181471241392
+2161904656627
+..\..\Shared\Themes\Generic.xaml;Designers\OpenWorkbookDesigner.xaml;Themes\Icons.xaml;C:\Users\hasan\Desktop\Open Workbook\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\hasan\Desktop\Open Workbook\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\hasan\Desktop\Open Workbook\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\hasan\Desktop\Open Workbook\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+
+False
+

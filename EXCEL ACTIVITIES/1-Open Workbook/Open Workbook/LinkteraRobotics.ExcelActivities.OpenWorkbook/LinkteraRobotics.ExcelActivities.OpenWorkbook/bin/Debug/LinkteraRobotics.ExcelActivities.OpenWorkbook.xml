@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LinkteraRobotics.ExcelActivities.OpenWorkbook</name>
+    </assembly>
+    <members>
+        <member name="T:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to an object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="objectToAdd"></param>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+             <summary>
+            
+             </summary>
+             <param name="filter"></param>
+             <returns></returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Remove``1">
+             <summary>
+            
+             </summary>
+             <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+            <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.IObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="T:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="F:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer._objectHolder">
+            <summary>
+            Gets the object holder.
+            </summary>
+            <value>
+            The object holder.
+            </value>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer" /> class.
+            </summary>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to a object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="object"></param>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+             <summary>
+            
+             </summary>
+             <param name="filter"></param>
+             <returns></returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Remove``1">
+            <summary>
+            Remove a object from the container
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:LinkteraRobotics.ExcelActivities.OpenWorkbook.ObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="T:LinkteraRobotics.ExcelActivities.OpenWorkbook.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LinkteraRobotics.ExcelActivities.OpenWorkbook.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LinkteraRobotics.ExcelActivities.OpenWorkbook.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
