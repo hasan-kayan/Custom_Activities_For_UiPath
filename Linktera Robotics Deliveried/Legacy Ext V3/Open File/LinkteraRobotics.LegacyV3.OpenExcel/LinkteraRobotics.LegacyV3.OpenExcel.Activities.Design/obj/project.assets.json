@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "LinkteraRobotics.LegacyV3.OpenExcel.Activities.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
+        },
+        "compile": {
+          "bin/placeholder/LinkteraRobotics.LegacyV3.OpenExcel.Activities.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkteraRobotics.LegacyV3.OpenExcel.Activities.Implementation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "sha512": "cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "type": "package",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll",
+        "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+        "microsoft.office.interop.excel.nuspec"
+      ]
+    },
+    "LinkteraRobotics.LegacyV3.OpenExcel.Activities.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../LinkteraRobotics.LegacyV3.OpenExcel.Activities/LinkteraRobotics.LegacyV3.OpenExcel.Activities.csproj",
+      "msbuildProject": "../LinkteraRobotics.LegacyV3.OpenExcel.Activities/LinkteraRobotics.LegacyV3.OpenExcel.Activities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "LinkteraRobotics.LegacyV3.OpenExcel.Activities.Implementation >= 1.0.0",
+      "Microsoft.Office.Interop.Excel >= 15.0.4795.1001"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hasan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design.csproj",
+      "projectName": "LinkteraRobotics.LegacyV3.OpenExcel.Activities",
+      "projectPath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design.csproj",
+      "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gallery.uipath.com/api/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "projectReferences": {
+            "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.csproj": {
+              "projectPath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.csproj",
+              "privateAssets": "all"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "targetAlias": "net461",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": {
+            "target": "Package",
+            "version": "[15.0.4795.1001, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

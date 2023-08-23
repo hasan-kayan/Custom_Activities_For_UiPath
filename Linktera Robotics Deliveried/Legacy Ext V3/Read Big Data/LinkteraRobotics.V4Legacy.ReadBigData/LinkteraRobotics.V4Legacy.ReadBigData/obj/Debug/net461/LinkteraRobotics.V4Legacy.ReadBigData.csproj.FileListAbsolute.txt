@@ -1,0 +1,14 @@
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\bin\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.dll
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\bin\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.pdb
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\bin\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.xml
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\bin\Debug\net461\ExcelDataReader.dll
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.Properties.Resources.resources
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.csproj.GenerateResource.cache
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.AssemblyInfo.cs
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.csproj.CoreCompileInputs.cache
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.csproj.CopyComplete
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.dll
+C:\Users\hasan\Desktop\Legacy Ext V3\Read Big Data\LinkteraRobotics.V4Legacy.ReadBigData\LinkteraRobotics.V4Legacy.ReadBigData\obj\Debug\net461\LinkteraRobotics.V4Legacy.ReadBigData.pdb

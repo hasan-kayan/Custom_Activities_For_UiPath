@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cS3jxr0x3h8zZEmibZfrWTFTXyd7nPPaLQ8y34+hbxAxHb5Qx5h581l8e/oFgNvwSVxgYVuQ5AdogpPuHGtUEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Read Big Data\\LinkteraRobotics.V4Legacy.ReadBigData\\LinkteraRobotics.V4Legacy.ReadBigData\\LinkteraRobotics.V4Legacy.ReadBigData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

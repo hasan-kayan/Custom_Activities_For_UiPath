@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sZMZqtvDPnc7xoPEswL9HntqGxjVshQEASZbbe8g6P/ICOwQwl16Fue5l48alLvLILA66dkiqkQBFsPOnV+xIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Copy Sheet\\LinkteraRobotics.V4Legacy.CopySheet\\LinkteraRobotics.V4Legacy.CopySheet\\LinkteraRobotics.V4Legacy.CopySheet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

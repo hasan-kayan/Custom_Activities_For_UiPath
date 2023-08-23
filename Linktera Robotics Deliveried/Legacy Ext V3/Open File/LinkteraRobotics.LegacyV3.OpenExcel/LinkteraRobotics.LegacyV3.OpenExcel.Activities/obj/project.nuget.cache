@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1tKwzonnd27fq4UGnX9hSW9f+R04F1Oxsx9ffPup/89/y7jigAI/Zr7VMcQkvOKIeysh99zRCNVGs4yRUdmpKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\Legacy Ext V3\\Open File\\LinkteraRobotics.LegacyV3.OpenExcel\\LinkteraRobotics.LegacyV3.OpenExcel.Activities\\LinkteraRobotics.LegacyV3.OpenExcel.Activities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
