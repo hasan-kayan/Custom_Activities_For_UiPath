@@ -1,8 +1,0 @@
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.Design.dll
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.Design.pdb
-C:\Users\hasan\Desktop\CP excel Publish\Microsoft.Office.Interop.Excel.dll
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.dll
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.pdb
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.xml
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.Design.xml
-C:\Users\hasan\Desktop\CP excel Publish\LinkteraRobotics.Read.Excel.Range.Activities.Design.deps.json

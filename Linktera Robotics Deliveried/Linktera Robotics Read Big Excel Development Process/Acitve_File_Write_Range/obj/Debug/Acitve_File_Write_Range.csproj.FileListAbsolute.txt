@@ -1,8 +1,0 @@
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\bin\Debug\Acitve_File_Write_Range.exe.config
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\bin\Debug\Acitve_File_Write_Range.exe
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\bin\Debug\Acitve_File_Write_Range.pdb
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\obj\Debug\Acitve_File_Write_Range.csproj.AssemblyReference.cache
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\obj\Debug\Acitve_File_Write_Range.csproj.SuggestedBindingRedirects.cache
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\obj\Debug\Acitve_File_Write_Range.csproj.CoreCompileInputs.cache
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\obj\Debug\Acitve_File_Write_Range.exe
-C:\Users\hasan\Desktop\.NET_Based_UiPath_Library\Acitve_File_Write_Range\obj\Debug\Acitve_File_Write_Range.pdb

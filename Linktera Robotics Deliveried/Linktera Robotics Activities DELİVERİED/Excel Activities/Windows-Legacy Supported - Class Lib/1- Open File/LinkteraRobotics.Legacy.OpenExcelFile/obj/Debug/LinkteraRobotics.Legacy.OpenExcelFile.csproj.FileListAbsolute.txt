@@ -1,6 +1,0 @@
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\bin\Debug\LinkteraRobotics.Legacy.OpenExcelFile.dll
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\bin\Debug\LinkteraRobotics.Legacy.OpenExcelFile.pdb
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\obj\Debug\LinkteraRobotics.Legacy.OpenExcelFile.csproj.AssemblyReference.cache
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\obj\Debug\LinkteraRobotics.Legacy.OpenExcelFile.csproj.CoreCompileInputs.cache
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\obj\Debug\LinkteraRobotics.Legacy.OpenExcelFile.dll
-C:\Users\hasan\Desktop\ProjectDelivery\Legacy Support Delivery Total\1- Open File\LinkteraRobotics.Legacy.OpenExcelFile\obj\Debug\LinkteraRobotics.Legacy.OpenExcelFile.pdb

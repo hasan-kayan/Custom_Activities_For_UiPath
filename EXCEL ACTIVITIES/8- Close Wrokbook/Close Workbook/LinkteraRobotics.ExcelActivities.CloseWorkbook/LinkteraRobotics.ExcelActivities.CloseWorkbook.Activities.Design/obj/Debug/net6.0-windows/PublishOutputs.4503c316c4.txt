@@ -1,8 +1,0 @@
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.Design.dll
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.Design.pdb
-C:\Users\hasan\Desktop\Close Workbook\Published\Microsoft.Office.Interop.Excel.dll
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.dll
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.pdb
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.xml
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.Design.xml
-C:\Users\hasan\Desktop\Close Workbook\Published\LinkteraRobotics.ExcelActivities.CloseWorkbook.Activities.Design.deps.json
