@@ -1,7 +1,0 @@
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design.dll
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design.pdb
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\Microsoft.Office.Interop.Excel.dll
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.dll
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.pdb
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.xml
-C:\Users\hasan\Desktop\Legacy Ext V3\Open File\published\LinkteraRobotics.LegacyV3.OpenExcel.Activities.Design.xml
