@@ -23,6 +23,18 @@ namespace LinkteraRobotics.ExcelActivities.Activities.Design
             builder.AddCustomAttributes(typeof(WriteCell), new DesignerAttribute(typeof(WriteCellDesigner)));
             builder.AddCustomAttributes(typeof(WriteCell), new HelpKeywordAttribute(""));
 
+            builder.AddCustomAttributes(typeof(CloseWorkbook), categoryAttribute);
+            builder.AddCustomAttributes(typeof(CloseWorkbook), new DesignerAttribute(typeof(CloseWorkbookDesigner)));
+            builder.AddCustomAttributes(typeof(CloseWorkbook), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(ReadBigData), categoryAttribute);
+            builder.AddCustomAttributes(typeof(ReadBigData), new DesignerAttribute(typeof(ReadBigDataDesigner)));
+            builder.AddCustomAttributes(typeof(ReadBigData), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(CopySheet), categoryAttribute);
+            builder.AddCustomAttributes(typeof(CopySheet), new DesignerAttribute(typeof(CopySheetDesigner)));
+            builder.AddCustomAttributes(typeof(CopySheet), new HelpKeywordAttribute(""));
+
 
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }

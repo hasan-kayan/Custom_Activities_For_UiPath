@@ -70,6 +70,60 @@ namespace LinkteraRobotics.ExcelActivities.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This activity closes target workbook. Created by Linktera Robotics..
+        /// </summary>
+        public static string CloseWorkbook_Description {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close Workbook.
+        /// </summary>
+        public static string CloseWorkbook_DisplayName {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CloseWorkbook_Path_Description {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_Path_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Path.
+        /// </summary>
+        public static string CloseWorkbook_Path_DisplayName {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_Path_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CloseWorkbook_Sheetname_Description {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_Sheetname_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sheetname.
+        /// </summary>
+        public static string CloseWorkbook_Sheetname_DisplayName {
+            get {
+                return ResourceManager.GetString("CloseWorkbook_Sheetname_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Common.
         /// </summary>
         public static string Common_Category {
@@ -93,6 +147,60 @@ namespace LinkteraRobotics.ExcelActivities.Activities.Properties {
         public static string ContinueOnError_DisplayName {
             get {
                 return ResourceManager.GetString("ContinueOnError_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This activity copies the target work sheet and paste the values into a new work sheet without any format..
+        /// </summary>
+        public static string CopySheet_Description {
+            get {
+                return ResourceManager.GetString("CopySheet_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copy Sheet.
+        /// </summary>
+        public static string CopySheet_DisplayName {
+            get {
+                return ResourceManager.GetString("CopySheet_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CopySheet_Path_Description {
+            get {
+                return ResourceManager.GetString("CopySheet_Path_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Path.
+        /// </summary>
+        public static string CopySheet_Path_DisplayName {
+            get {
+                return ResourceManager.GetString("CopySheet_Path_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CopySheet_Sheetname_Description {
+            get {
+                return ResourceManager.GetString("CopySheet_Sheetname_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sheetname.
+        /// </summary>
+        public static string CopySheet_Sheetname_DisplayName {
+            get {
+                return ResourceManager.GetString("CopySheet_Sheetname_DisplayName", resourceCulture);
             }
         }
         
@@ -129,6 +237,78 @@ namespace LinkteraRobotics.ExcelActivities.Activities.Properties {
         public static string Output_Category {
             get {
                 return ResourceManager.GetString("Output_Category", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This activty is created to read huge Excel data and export it into a data table. Activity has not any range property, it reads entire sheet. Created by Linktera Robotics..
+        /// </summary>
+        public static string ReadBigData_Description {
+            get {
+                return ResourceManager.GetString("ReadBigData_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read Big Data.
+        /// </summary>
+        public static string ReadBigData_DisplayName {
+            get {
+                return ResourceManager.GetString("ReadBigData_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ReadBigData_OutData_Description {
+            get {
+                return ResourceManager.GetString("ReadBigData_OutData_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OutData.
+        /// </summary>
+        public static string ReadBigData_OutData_DisplayName {
+            get {
+                return ResourceManager.GetString("ReadBigData_OutData_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ReadBigData_Path_Description {
+            get {
+                return ResourceManager.GetString("ReadBigData_Path_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Path.
+        /// </summary>
+        public static string ReadBigData_Path_DisplayName {
+            get {
+                return ResourceManager.GetString("ReadBigData_Path_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ReadBigData_Sheetname_Description {
+            get {
+                return ResourceManager.GetString("ReadBigData_Sheetname_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sheetname.
+        /// </summary>
+        public static string ReadBigData_Sheetname_DisplayName {
+            get {
+                return ResourceManager.GetString("ReadBigData_Sheetname_DisplayName", resourceCulture);
             }
         }
         

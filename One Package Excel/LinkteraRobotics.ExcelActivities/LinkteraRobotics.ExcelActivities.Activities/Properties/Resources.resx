@@ -217,6 +217,102 @@
     <value />
     <comment>property description</comment>
   </data>
+  <data name="WriteCell_DisplayName" xml:space="preserve">
+    <value>Write Cell</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="WriteCell_Description" xml:space="preserve">
+    <value>This activity writes the value taken from user into a specific cell. Created by Linktera Robotics.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="WriteCell_Path_DisplayName" xml:space="preserve">
+    <value>Path</value>
+    <comment>property name</comment>
+  </data>
+  <data name="WriteCell_Path_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="WriteCell_Sheetname_DisplayName" xml:space="preserve">
+    <value>Sheetname</value>
+    <comment>property name</comment>
+  </data>
+  <data name="WriteCell_Sheetname_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="WriteCell_Cell_DisplayName" xml:space="preserve">
+    <value>Cell</value>
+    <comment>property name</comment>
+  </data>
+  <data name="WriteCell_Cell_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="WriteCell_Value_DisplayName" xml:space="preserve">
+    <value>Value</value>
+    <comment>property name</comment>
+  </data>
+  <data name="WriteCell_Value_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="CloseWorkbook_DisplayName" xml:space="preserve">
+    <value>Close Workbook</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CloseWorkbook_Description" xml:space="preserve">
+    <value>This activity closes target workbook. Created by Linktera Robotics.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="CloseWorkbook_Path_DisplayName" xml:space="preserve">
+    <value>Path</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CloseWorkbook_Path_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="CloseWorkbook_Sheetname_DisplayName" xml:space="preserve">
+    <value>Sheetname</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CloseWorkbook_Sheetname_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ReadBigData_DisplayName" xml:space="preserve">
+    <value>Read Big Data</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadBigData_Description" xml:space="preserve">
+    <value>This activty is created to read huge Excel data and export it into a data table. Activity has not any range property, it reads entire sheet. Created by Linktera Robotics.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ReadBigData_Path_DisplayName" xml:space="preserve">
+    <value>Path</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ReadBigData_Path_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ReadBigData_Sheetname_DisplayName" xml:space="preserve">
+    <value>Sheetname</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ReadBigData_Sheetname_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="ReadBigData_OutData_DisplayName" xml:space="preserve">
+    <value>OutData</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ReadBigData_OutData_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
   <data name="Authentication_Category" xml:space="preserve">
     <value>Authentication</value>
     <comment>category</comment>
@@ -253,19 +349,19 @@
     <value>Please provide values for both {0} and {1}.</value>
     <comment>error message; {0} &amp; {1} are complementary properties</comment>
   </data>
-  <data name="WriteCell_DisplayName" xml:space="preserve">
-    <value>Write Cell</value>
+  <data name="CopySheet_DisplayName" xml:space="preserve">
+    <value>Copy Sheet</value>
     <comment>activity name</comment>
   </data>
-  <data name="WriteCell_Description" xml:space="preserve">
-    <value>This activity writes the value taken from user into a specific cell. Created by Linktera Robotics.</value>
+  <data name="CopySheet_Description" xml:space="preserve">
+    <value>This activity copies the target work sheet and paste the values into a new work sheet without any format.</value>
     <comment>activity description</comment>
   </data>
-  <data name="WriteCell_Path_DisplayName" xml:space="preserve">
+  <data name="CopySheet_Path_DisplayName" xml:space="preserve">
     <value>Path</value>
     <comment>property name</comment>
   </data>
-  <data name="WriteCell_Path_Description" xml:space="preserve">
+  <data name="CopySheet_Path_Description" xml:space="preserve">
     <value />
     <comment>property description</comment>
   </data>
@@ -273,35 +369,11 @@
     <value>Input</value>
     <comment>category</comment>
   </data>
-  <data name="WriteCell_Sheetname_DisplayName" xml:space="preserve">
+  <data name="CopySheet_Sheetname_DisplayName" xml:space="preserve">
     <value>Sheetname</value>
     <comment>property name</comment>
   </data>
-  <data name="WriteCell_Sheetname_Description" xml:space="preserve">
-    <value />
-    <comment>property description</comment>
-  </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
-  </data>
-  <data name="WriteCell_Cell_DisplayName" xml:space="preserve">
-    <value>Cell</value>
-    <comment>property name</comment>
-  </data>
-  <data name="WriteCell_Cell_Description" xml:space="preserve">
-    <value />
-    <comment>property description</comment>
-  </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
-  </data>
-  <data name="WriteCell_Value_DisplayName" xml:space="preserve">
-    <value>Value</value>
-    <comment>property name</comment>
-  </data>
-  <data name="WriteCell_Value_Description" xml:space="preserve">
+  <data name="CopySheet_Sheetname_Description" xml:space="preserve">
     <value />
     <comment>property description</comment>
   </data>
