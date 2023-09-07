@@ -1,0 +1,20 @@
+﻿LinkteraRobotics.ExcelActivities.Activities.Design
+1.0.0.0
+
+library
+C#
+.cs
+C:\Users\windows\Desktop\Linktera.Robotics.RPA\Excel All\LinkteraRobotics.ExcelActivities\LinkteraRobotics.ExcelActivities.Activities.Design\obj\Debug\net6.0-windows\
+LinkteraRobotics.ExcelActivities.Activities.Design
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+
+121617621874
+
+25733055279
+215-682303326
+..\..\Shared\Themes\Generic.xaml;Designers\CloseWorkbookDesigner.xaml;Designers\CopySheetDesigner.xaml;Designers\OpenWorkbookDesigner.xaml;Designers\ReadBigDataDesigner.xaml;Designers\ReadCellDesigner.xaml;Designers\WriteCellDesigner.xaml;Themes\Icons.xaml;C:\Users\windows\Desktop\Linktera.Robotics.RPA\Excel All\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\windows\Desktop\Linktera.Robotics.RPA\Excel All\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\windows\Desktop\Linktera.Robotics.RPA\Excel All\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\windows\Desktop\Linktera.Robotics.RPA\Excel All\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+
+True
+
