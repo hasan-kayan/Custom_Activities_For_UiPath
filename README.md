@@ -13,7 +13,7 @@ At this folder you are going to finde completed activities but at this folder ac
 
 This folder has is in the development process, this project will include all Linktera Robotics Excel Activities in one package and in this package there is going to be 16 activities. 
 
-| ##           | Activity Name    | Activity Name| Status       |
+| ##           | Activity Class    | Activity Name| Status       |
 |--------------|------------------|--------------|---------------
 | 1            | Excel            | Open Workbook| Done         |
 | 2            | Excel            | Read Range   | In Progress  |
