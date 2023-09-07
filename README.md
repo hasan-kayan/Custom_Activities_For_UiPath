@@ -4,7 +4,7 @@
 
 Here you can find each activity set, source codes, nuget packages and development process notes. 
 
-## Linktera Robotics Excel Activities
+## EXCEL ACTIVITIES
 
 
 At this folder you are going to finde completed activities but at this folder activities developed in different project structures because of that each activty has its own nuget package. These activities are the completed ones, not the all Excel Activities.
