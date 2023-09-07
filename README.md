@@ -15,22 +15,22 @@ This folder has is in the development process, this project will include all Lin
 
 | ##           | Activity Name    | Activity Name| Status       |
 |--------------|------------------|--------------|---------------
-| 1            | Excel            | Open Workbook| Done  <span style="color:green">Done</span>        |
-| 2            | Excel            | Read Range   | Done   <span style="color:green">Done</span>       |
-| 3            | Excel            | Read Cell    | In progress  <span style="color:orange">Done</span>  |
-| 4            | Excel            | Write Range  | In progress  <span style="color:orange">Done</span> |
-| 5            | Excel            | Write Cell   | In progress <span style="color:orange">Done</span> |
-| 6            | Excel            | Write Formula| Planning  <span style="color:yellow">Done</span>   |
-| 7            | Excel            | Close workbook| Done  <span style="color:green">Done</span>       |
-| 8            | Excel            | Append Range | Planning <span style="color:yellow">Done</span>     |
-| 9            | Excel            | Copy Sheet   | Done   <span style="color:green">Done</span>       |
-| 10           | Excel            | Delete Range | Planning  <span style="color:yellow">Done</span>    |
-| 11           | Excel            | Delete Cell  | Planning  <span style="color:yellow">Done</span>    |
-| 12           | Excel            | Set Range Color| Planning <span style="color:yellow">Done</span>   |
-| 13           | Excel            | Get Sheets Name| Planning <span style="color:yellow">Done</span>   |
-| 14           | Excel            | Autofit Columns| Planning  <span style="color:yellow">Done</span>  |
-| 15           | Excel            | Read Big Data| Done   <span style="color:green">Done</span>       |
-| 16           | Excel            | Autofit Rows | Planning   <span style="color:yellow">Done</span>   |
+| 1            | Excel            | Open Workbook| Done         |
+| 2            | Excel            | Read Range   | In Progress  |
+| 3            | Excel            | Read Cell    | In progress  |
+| 4            | Excel            | Write Range  | In progress  |
+| 5            | Excel            | Write Cell   | In progress  |
+| 6            | Excel            | Write Formula| Planning     |
+| 7            | Excel            | Close workbook| Done        |
+| 8            | Excel            | Append Range | Planning     |
+| 9            | Excel            | Copy Sheet   | Done         |
+| 10           | Excel            | Delete Range | Planning     |
+| 11           | Excel            | Delete Cell  | Planning     |
+| 12           | Excel            | Set Range Color| Planning   |
+| 13           | Excel            | Get Sheets Name| Planning   |
+| 14           | Excel            | Autofit Columns| Planning   |
+| 15           | Excel            | Read Big Data| Done         |
+| 16           | Excel            | Autofit Rows | Planning     |
 
 
 ## Console Application Experiment 
